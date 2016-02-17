@@ -1,6 +1,6 @@
 # Star Traders
 
-*Who* 
+**Who**
 
 Isabella Figueroa : francesca-figueroa
 
