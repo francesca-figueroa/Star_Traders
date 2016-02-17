@@ -42,39 +42,38 @@ Brandon Jacquez : baroquemyheart
 
 User Requirements: 
 
-1. As a player I want to be able to buy and sell goods because in the game I can accumulate goods and currency and progress in the game.
-2. As a player I want to be able to use goods as components in making other goods because it adds variety and depth to the means of progressing in the game.
-3. As a player I want to be able to buy factories to make greater goods because it adds variety and depth to the means of progressing in the game.
-5. As a player I want to have varying maps between play sessions because it adds replayability.
-5. As a player I want planets that provide resources so that I have goods to trade in the game.
-6. As a player I want planets that act as intermediate trade points in a line of goods because it adds variety and depth to the means of progressing in the game.
-7. As a player I want a variety of planets because it adds depth and replayability.
-8. As a economist I want to look at graphs of the current state of the simulated economy because it allows me to strategize in the game.
-9. As a player I want to be able to hire ships to automatically pickup and transfer goods because it adds more depth to the later stages of the game where I should be generating more income.
-10. As a player I want to be able to set up stores that automatically sell goods because it adds further depth to how I progress in the game.
-11. As a player I want to be able to upgrade my ship(s) and shop(s) because it adds depth and a sense of progress to the game.
+1. As a player I want to be able to buy and sell goods because in the game I can accumulate goods and currency and progress in the game. 45min
+2. As a player I want to be able to use goods as components in making other goods because it adds variety and depth to the means of progressing in the game. 35min
+3. As a player I want to be able to buy factories to make greater goods because it adds variety and depth to the means of progressing in the game. 40min
+5. As a player I want to have varying maps between play sessions because it adds replayability. 5hours
+5. As a player I want planets that provide resources so that I have goods to trade in the game. 1hour
+6. As a player I want planets that act as intermediate trade points in a line of goods because it adds variety and depth to the means of progressing in the game. 10min (due to other requirements that cover most of what this entails)
+7. As a player I want a variety of planets because it adds depth and replayability. 2hours
+8. As a economist I want to look at graphs of the current state of the simulated economy because it allows me to strategize in the game. 6hours
+9. As a player I want to be able to hire ships to automatically pickup and transfer goods because it adds more depth to the later stages of the game where I should be generating more income. 50min
+10. As a player I want to be able to set up stores that automatically sell goods because it adds further depth to how I progress in the game. 20min
+11. As a player I want to be able to upgrade my ship(s) and shop(s) because it adds depth and a sense of progress to the game. 4hours
 
 Functional Requirements: 
 
-1. As a developer I want to be able to keep track of the current state of the planetary system and galactic economies because it allows 
-2. As a developer I want to be able to track goods in value, location, and status .
-3. As a developer I want to be able to have a set way of crafting goods into other goods.
-4. As a developer I want to be able to track what infrastructure the player owns.
-5. As a developer I want to be able to process automated systems.
-6. As a developer I want to be able to keep track and change player locations.
-7. As a player I want to be able to navigate the world.
-8. As a developer I want to be able to procedurally generate a map based on parameters.
-9. As a developer I want to visualise game data specifically in terms of goods and their attributes. 
-10. As a player I want to be able to save the game
-11. As a player I want menus
-12. As a player I want pausing.
+1. As a developer I want to be able to keep track of the current state of the planetary system and galactic economies because it allows for graphing and price estimates. 1hour
+2. As a developer I want to be able to track goods in value, location, and status because it allows for trading, inventory, and managing a relatively versitile economy. 1hour
+3. As a developer I want to be able to have a set way of crafting goods into other goods because it allows for using existing goods to create new goods. 30min
+4. As a developer I want to be able to track what infrastructure the player owns because it allows for players to have factories and ships. 30min
+5. As a developer I want to be able to process automated systems because it allows for the player's infrastructure to function properly and for planets to change over time. 1hour
+7. As a player I want to be able to navigate the world as it allows me to trade. 1hour
+8. As a developer I want to be able to procedurally generate a map based on parameters as it allows the game to be more replayable. 5hours
+9. As a developer I want to visualise game data specifically in terms of goods and their attributes as it allows the player to see more information about the game. 5hours 
+10. As a player I want to be able to save the game as it gives the game more playability and adds to my ease of use. 1.5hours
+11. As a player I want menus as it allows me to access more information 1hour
+12. As a player I want pausing as it add more ease of use. 25min
 
 Non-Functional Requirements: 
 
-1. As a player I want the game to run at at least 30 fps
-2. As a player I want the controls and layout to be intuitive
-3. As a player I want a game that is stable and effectively manages whatever input I give it.
-4. As a player I want the game to look reasonably good and the sound to be suitable.
+1. As a player I want the game to run at at least 30 fps as it makes the game a smooth visual experience. 6hours (optimization)
+2. As a player I want the controls and layout to be intuitive as it adds to my ease of use. 1hour (to think about it)
+3. As a player I want a game that is stable and effectively manages whatever input I give it as it adds to my player experience. 8hours (testing)
+4. As a player I want the game to look reasonably good and the sound to be suitable as it adds to the useability of the game. 4hours
 
 **Methodology:**
 Agile, with sprint timing based on weekly meetings.
