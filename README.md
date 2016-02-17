@@ -1,6 +1,6 @@
 # Star Traders
 
-Who 
+*Who* 
 
 Isabella Figueroa : francesca-figueroa
 
@@ -10,19 +10,19 @@ Nicholas Pfeufer : NicholasPfeufer
 
 Brandon Jacquez : baroquemyheart
 
-Description
+*Description*
 
    A game where in the player attempts to make more money than there opponents by trading in space, at the moment only intended for desktop.
    
-Vision Statement
+*Vision Statement*
 
   We strive to make games we would enjoy playing.
   
-Motivation
+*Motivation*
   
   In initial planning we determined we all liked games, feeling other options to be less interesting we decided to make a game. We considered a number of different topics, formats, and genres for our games, and through brainstorming, eventually concluded that we would enjoy making and playing a game like this project. 
   
-Risks
+*Risks*
 
   1. Time management will be a difficulty as is with any team-based project. We will have to work to coordinate our schedules and individually and as a group manage our limited time resources effectively to generate a good end product, considering the scope of this project. Failure to manage our time effectively would result in ending up with an incomplete product, because we hadn't managed our time and wasted time.
   2. Communication is also a difficulty in team-based work, especially in this case where a significant piece of the project is learning how to effectively use project management tools like Github and Trello. Failure to do this would slow and harm our product and our productivity.
@@ -30,14 +30,14 @@ Risks
   4. Designing or finding suitable art is another consideration we will have to take into account. Visuals can make or break a game, so if we are unable obtain artwork, the quality of our game could suffer. 
   
 
-Mitigation Strategy  
+*Mitigation Strategy*
 
   1. The use of Trello for scheduling and a set weekly meeting time will help to greatly reduce the risk in time management. 
   2. Group text is already in effect and the use of email is a strong backup. Beyond that, Trello and GitHub will serve as another possible backup. 
   3. We have listed both pros and cons to a number of suitable engines after a vote and extensive discussion we have decided on the Unreal Engine 4, as it is free, uses C++, and has Git integration, three things that make it the most attractive option.
   4. Our game design has been designed to minimize risk because in space there is a lot of empty space and simple shapes, thus less need for complex graphics and competent art skill. 
 
-Requirements
+*Requirements*
 
 
 User Requirements: 
@@ -76,11 +76,11 @@ Non-Functional Requirements:
 3. As a player I want a game that is stable and effectively manages whatever input I give it.
 4. As a player I want the game to look reasonably good and the sound to be suitable.
 
-Methodology:
+*Methodology:*
 Agile, with sprint timing based on weekly meetings.
 
 
-Link to Project Tracking: 
+*Link to Project Tracking:*
 
 
 https://trello.com/b/UMEHXd3i/unicorn-factory-game-0
