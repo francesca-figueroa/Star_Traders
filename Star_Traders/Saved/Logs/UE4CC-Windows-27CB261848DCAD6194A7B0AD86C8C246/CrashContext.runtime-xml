@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FGenericCrashContext>
+<RuntimeProperties>
+<Version>1</Version>
+<ProcessId>15680</ProcessId>
+<IsInternalBuild>0</IsInternalBuild>
+<IsPerforceBuild>0</IsPerforceBuild>
+<IsSourceDistribution>0</IsSourceDistribution>
+<GameName>Star_Traders</GameName>
+<ExecutableName>UE4Editor</ExecutableName>
+<BuildConfiguration>Development</BuildConfiguration>
+<PlatformName>Windows</PlatformName>
+<PlatformNameIni>Windows</PlatformNameIni>
+<EngineMode>Editor</EngineMode>
+<EngineVersion>4.10.4-2872498+++depot+UE4-Releases+4.10</EngineVersion>
+<CommandLine>-EpicPortal </CommandLine>
+<LanguageLCID>1033</LanguageLCID>
+<DefaultLocale>en_US</DefaultLocale>
+<IsUE4Release>1</IsUE4Release>
+<UserName></UserName>
+<BaseDir>D:/Program Files/Epic Games/4.10/Engine/Binaries/Win64/</BaseDir>
+<RootDir>D:/Program Files/Epic Games/4.10/</RootDir>
+<MachineId>8DB196C34D32D074AD89B8876B1D2E24</MachineId>
+<EpicAccountId>066614d967444ca3b197be692feedf20</EpicAccountId>
+<CallStack></CallStack>
+<SourceContext></SourceContext>
+<UserDescription></UserDescription>
+<ErrorMessage>Fatal error: [File:D:\BuildFarm\buildmachine_++depot+UE4-Releases+4.10\Engine\Source\Runtime\CoreUObject\Private\UObject\Obj.cpp] [Line: 167] 
+Renaming an object (StaticMeshComponent /Game/Star_Traders_Resorces/Blueprints/Advanced_Star.Advanced_Star_C:Planet_GEN_VARIABLE) on top of an existing object (StaticMeshComponent /Game/Star_Traders_Resorces/Blueprints/Advanced_Star.Advanced_Star_C:Planet2_GEN_VARIABLE) is not allowed
+</ErrorMessage>
+<MiscNumberOfCores>3</MiscNumberOfCores>
+<MiscNumberOfCoresIncludingHyperthreads>6</MiscNumberOfCoresIncludingHyperthreads>
+<MiscIs64bitOperatingSystem>1</MiscIs64bitOperatingSystem>
+<MiscCPUVendor>AuthenticAMD</MiscCPUVendor>
+<MiscCPUBrand>AMD FX(tm)-6350 Six-Core Processor             </MiscCPUBrand>
+<MiscPrimaryGPUBrand>AMD Radeon R9 200 Series</MiscPrimaryGPUBrand>
+<MiscOSVersionMajor>Windows 10</MiscOSVersionMajor>
+<MiscOSVersionMinor></MiscOSVersionMinor>
+<CrashDumpMode>0</CrashDumpMode>
+<MemoryStatsTotalPhysical>8552845312</MemoryStatsTotalPhysical>
+<MemoryStatsTotalVirtual>140737488224256</MemoryStatsTotalVirtual>
+<MemoryStatsPageSize>4096</MemoryStatsPageSize>
+<MemoryStatsTotalPhysicalGB>8</MemoryStatsTotalPhysicalGB>
+<MemoryStatsAvailablePhysical>2566254592</MemoryStatsAvailablePhysical>
+<MemoryStatsAvailableVirtual>140734559592448</MemoryStatsAvailableVirtual>
+<MemoryStatsUsedPhysical>969986048</MemoryStatsUsedPhysical>
+<MemoryStatsPeakUsedPhysical>1002176512</MemoryStatsPeakUsedPhysical>
+<MemoryStatsUsedVirtual>2189651968</MemoryStatsUsedVirtual>
+<MemoryStatsPeakUsedVirtual>2191159296</MemoryStatsPeakUsedVirtual>
+<MemoryStatsbIsOOM>0</MemoryStatsbIsOOM>
+<MemoryStatsOOMAllocationSize>0</MemoryStatsOOMAllocationSize>
+<MemoryStatsOOMAllocationAlignment>0</MemoryStatsOOMAllocationAlignment>
+</RuntimeProperties>
+<PlatformProperties>
+<PlatformIsRunningWindows>1</PlatformIsRunningWindows>
+</PlatformProperties>
+</FGenericCrashContext>
