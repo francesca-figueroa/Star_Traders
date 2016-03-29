@@ -3,6 +3,16 @@
 	"EngineAssociation": "4.10",
 	"Category": "",
 	"Description": "",
+	"Modules": [
+		{
+			"Name": "Star_Traders",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"AdditionalDependencies": [
+				"Engine"
+			]
+		}
+	],
 	"Plugins": [
 		{
 			"Name": "CodeView",

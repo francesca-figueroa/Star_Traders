@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<ItemGroup>
+		<None Include="..\..\Star_Traders.uproject" />
+		<Filter Include="Source">
+			<UniqueIdentifier>{08BECC89-ADC0-4A9D-B144-7CB706ECB2FF}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\Star_Traders.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<None Include="..\..\Source\Star_TradersEditor.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<Filter Include="Config">
+			<UniqueIdentifier>{6AE68AA9-724D-4595-896C-186DE7A99D67}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Config\DefaultEditor.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultEngine.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultGame.ini">
+			<Filter>Config</Filter>
+		</None >
+		<Filter Include="Source\Star_Traders">
+			<UniqueIdentifier>{897FBF42-22A8-4D7A-AE5F-091C6B3EA1D9}</UniqueIdentifier>
+		</Filter>
+		<ClCompile Include="..\..\Source\Star_Traders\Ship.cpp">
+			<Filter>Source\Star_Traders</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\Star_Traders\Ship.h">
+			<Filter>Source\Star_Traders</Filter>
+		</ClInclude >
+		<None Include="..\..\Source\Star_Traders\Star_Traders.Build.cs">
+			<Filter>Source\Star_Traders</Filter>
+		</None >
+		<ClCompile Include="..\..\Source\Star_Traders\Star_Traders.cpp">
+			<Filter>Source\Star_Traders</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\Star_Traders\Star_Traders.h">
+			<Filter>Source\Star_Traders</Filter>
+		</ClInclude >
+	</ItemGroup>
+</Project>
