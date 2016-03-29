@@ -280,4 +280,274 @@
 [2016.03.29-22.06.52:619][855]LogActor:Warning: GameSession /Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.GameSession_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
 [2016.03.29-22.06.52:619][855]LogActor:Warning: GameNetworkManager /Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.GameNetworkManager_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
 [2016.03.29-22.06.52:619][855]LogWorld: Bringing up level for play took: 0.004921
-[2016.03.2
+[2016.03.29-22.06.52:724][855]PIE: Info Play in editor start time for /Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel 0.94
+[2016.03.29-22.07.26:357][ 61]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001EFCE601800
+[2016.03.29-22.09.17:195][716]LogClass:Warning: Type mismatch in OwningPawn of SKEL_EdgeScrollingHud_C - Previous (StructProperty) Current(ObjectProperty) for package:  FObjectReader
+[2016.03.29-22.09.30:739][279]BlueprintLog: New page: Compile EdgeScrollingHud
+[2016.03.29-22.09.31:254][279]BlueprintEditorCompileResults: Info [2613.37] Compile of EdgeScrollingHud successful! [in 514 ms]
+[2016.03.29-22.09.32:550][296]LogSavePackage: Save=200.293625ms
+[2016.03.29-22.09.32:550][296]LogSavePackage: Moving 'E:/Star_Traders/Star_Traders/Saved/EdgeScrollingHud50B93A2A49C304D1E7115E822FF3CA3E.tmp' to 'E:/Star_Traders/Star_Traders/Content/Star_Traders_Resorces/Blueprints/Player/CameraSystem/EdgeScrollingHud.uasset'
+[2016.03.29-22.09.32:557][296]LogSavePackage: Total save time: 226.386413ms
+[2016.03.29-22.09.32:557][296]LogSavePackage:Display: Finished SavePackage E:/Star_Traders/Star_Traders/Content/Star_Traders_Resorces/Blueprints/Player/CameraSystem/EdgeScrollingHud.uasset
+[2016.03.29-22.10.53:754][505]BlueprintLog: New page: Compile EdgeScrollingHud
+[2016.03.29-22.10.54:337][505]BlueprintEditorCompileResults: Info [2696.46] Compile of EdgeScrollingHud successful! [in 583 ms]
+[2016.03.29-22.10.55:513][523]LogSavePackage: Save=219.167740ms
+[2016.03.29-22.10.55:513][523]LogSavePackage: Moving 'E:/Star_Traders/Star_Traders/Saved/EdgeScrollingHud34D6DE0D47CAE78E2850388047CB3934.tmp' to 'E:/Star_Traders/Star_Traders/Content/Star_Traders_Resorces/Blueprints/Player/CameraSystem/EdgeScrollingHud.uasset'
+[2016.03.29-22.10.55:517][523]LogSavePackage: Total save time: 251.040224ms
+[2016.03.29-22.10.55:517][523]LogSavePackage:Display: Finished SavePackage E:/Star_Traders/Star_Traders/Content/Star_Traders_Resorces/Blueprints/Player/CameraSystem/EdgeScrollingHud.uasset
+[2016.03.29-22.20.24:674][429]BlueprintLog: New page: Compile EdgeScrollingHud
+[2016.03.29-22.20.25:050][429]BlueprintEditorCompileResults: Info [3267.17] Compile of EdgeScrollingHud successful! [in 375 ms]
+[2016.03.29-22.20.27:103][499]LogSavePackage: Save=214.548676ms
+[2016.03.29-22.20.27:103][499]LogSavePackage: Moving 'E:/Star_Traders/Star_Traders/Saved/EdgeScrollingHudF3F8E82444CB1E7B64DF8993B822C8A3.tmp' to 'E:/Star_Traders/Star_Traders/Content/Star_Traders_Resorces/Blueprints/Player/CameraSystem/EdgeScrollingHud.uasset'
+[2016.03.29-22.20.27:107][499]LogSavePackage: Total save time: 251.114126ms
+[2016.03.29-22.20.27:107][499]LogSavePackage:Display: Finished SavePackage E:/Star_Traders/Star_Traders/Content/Star_Traders_Resorces/Blueprints/Player/CameraSystem/EdgeScrollingHud.uasset
+[2016.03.29-22.20.30:904][667]LogSavePackage: Save=312.621613ms
+[2016.03.29-22.20.30:904][667]LogSavePackage: Moving 'E:/Star_Traders/Star_Traders/Saved/EdgeScrollingHud8138CAF043600EE6E0B8528CB7E84743.tmp' to 'E:/Star_Traders/Star_Traders/Content/Star_Traders_Resorces/Blueprints/Player/CameraSystem/EdgeScrollingHud.uasset'
+[2016.03.29-22.20.30:905][667]LogSavePackage: Total save time: 340.980612ms
+[2016.03.29-22.20.30:905][667]LogSavePackage:Display: Finished SavePackage E:/Star_Traders/Star_Traders/Content/Star_Traders_Resorces/Blueprints/Player/CameraSystem/EdgeScrollingHud.uasset
+[2016.03.29-22.24.01:316][440]BlueprintLog: New page: Compile EdgeScrollingHud
+[2016.03.29-22.24.01:879][440]BlueprintEditorCompileResults: Info [3484.00] Compile of EdgeScrollingHud successful! [in 563 ms]
+[2016.03.29-22.24.03:261][459]LogSavePackage: Save=222.505905ms
+[2016.03.29-22.24.03:261][459]LogSavePackage: Moving 'E:/Star_Traders/Star_Traders/Saved/EdgeScrollingHudD3C1E40F40ABB25141FCB8BF80858C06.tmp' to 'E:/Star_Traders/Star_Traders/Content/Star_Traders_Resorces/Blueprints/Player/CameraSystem/EdgeScrollingHud.uasset'
+[2016.03.29-22.24.03:267][459]LogSavePackage: Total save time: 253.962919ms
+[2016.03.29-22.24.03:267][459]LogSavePackage:Display: Finished SavePackage E:/Star_Traders/Star_Traders/Content/Star_Traders_Resorces/Blueprints/Player/CameraSystem/EdgeScrollingHud.uasset
+[2016.03.29-22.25.46:057][660]BlueprintLog: New page: Compile EdgeScrollingHud
+[2016.03.29-22.25.46:622][660]BlueprintEditorCompileResults: Info [3588.74] Compile of EdgeScrollingHud successful! [in 564 ms]
+[2016.03.29-22.25.48:069][681]LogSavePackage: Save=250.768860ms
+[2016.03.29-22.25.48:069][681]LogSavePackage: Moving 'E:/Star_Traders/Star_Traders/Saved/EdgeScrollingHudCB50C0A04AB2DBE5A1CE03A024C0884A.tmp' to 'E:/Star_Traders/Star_Traders/Content/Star_Traders_Resorces/Blueprints/Player/CameraSystem/EdgeScrollingHud.uasset'
+[2016.03.29-22.25.48:073][681]LogSavePackage: Total save time: 279.255956ms
+[2016.03.29-22.25.48:073][681]LogSavePackage:Display: Finished SavePackage E:/Star_Traders/Star_Traders/Content/Star_Traders_Resorces/Blueprints/Player/CameraSystem/EdgeScrollingHud.uasset
+[2016.03.29-22.25.50:934][770]LogSavePackage: Save=575.728638ms
+[2016.03.29-22.25.50:934][770]LogSavePackage: Moving 'E:/Star_Traders/Star_Traders/Saved/EdgeScrollingHudB74D98DA4F3BF644BEBC8986139DFBA8.tmp' to 'E:/Star_Traders/Star_Traders/Content/Star_Traders_Resorces/Blueprints/Player/CameraSystem/EdgeScrollingHud.uasset'
+[2016.03.29-22.25.50:936][770]LogSavePackage: Total save time: 617.760550ms
+[2016.03.29-22.25.50:937][770]LogSavePackage:Display: Finished SavePackage E:/Star_Traders/Star_Traders/Content/Star_Traders_Resorces/Blueprints/Player/CameraSystem/EdgeScrollingHud.uasset
+[2016.03.29-22.25.52:728][814]LogSavePackage: Save=77.083664ms
+[2016.03.29-22.25.52:728][814]LogSavePackage: Moving 'E:/Star_Traders/Star_Traders/Saved/DemoLevelE39CE87F40031E3DBB067C987CD9234D.tmp' to 'E:/Star_Traders/Star_Traders/Content/Star_Traders_Resorces/Levels/DemoLevel.umap'
+[2016.03.29-22.25.52:731][814]LogSavePackage: Total save time: 121.437214ms
+[2016.03.29-22.25.52:731][814]LogSavePackage:Display: Finished SavePackage E:/Star_Traders/Star_Traders/Content/Star_Traders_Resorces/Levels/DemoLevel.umap
+[2016.03.29-22.25.54:314][844]LogSavePackage: Save=38.878483ms
+[2016.03.29-22.25.54:314][844]LogSavePackage: Moving 'E:/Star_Traders/Star_Traders/Saved/DemoLevelD2D502E247E1E307A9868D83149162BC.tmp' to 'E:/Star_Traders/Star_Traders/Content/Star_Traders_Resorces/Levels/DemoLevel.umap'
+[2016.03.29-22.25.54:316][844]LogSavePackage: Total save time: 66.730052ms
+[2016.03.29-22.25.54:316][844]LogSavePackage:Display: Finished SavePackage E:/Star_Traders/Star_Traders/Content/Star_Traders_Resorces/Levels/DemoLevel.umap
+[2016.03.29-22.25.56:837][900]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2016.03.29-22.25.56:946][900]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2016.03.29-22.25.57:457][901]Cmd: QUIT_EDITOR
+[2016.03.29-22.25.57:710][901]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2016.03.29-22.25.57:714][901]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2016.03.29-22.25.57:879][901]LogExit: Preparing to exit.
+[2016.03.29-22.25.58:405][901]LogExit: Editor shut down
+[2016.03.29-22.25.58:407][901]LogExit: Transaction tracking system shut down
+[2016.03.29-22.25.58:428][901]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001EFE968D300
+[2016.03.29-22.25.58:434][901]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001EFEAA46840
+[2016.03.29-22.25.58:434][901]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001EFFFF53880
+[2016.03.29-22.25.58:436][901]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001EF84F43600
+[2016.03.29-22.25.58:436][901]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001EF850F68E0
+[2016.03.29-22.25.58:445][901]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001EF9C3DE2A0
+[2016.03.29-22.25.58:453][901]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001EFA12125C0
+[2016.03.29-22.25.58:896][901]LogExit: Object subsystem successfully closed.
+[2016.03.29-22.25.58:949][901]LogD3D11RHI: Shutdown
+[2016.03.29-22.25.58:950][901]LogD3D11RHI: CleanupD3DDevice
+[2016.03.29-22.25.59:091][901]LogD3D11RHI: ~FD3D11DynamicRHI
+[2016.03.29-22.25.59:145][901]LogModuleManager: Shutting down and abandoning module BlueprintGraph (202)
+[2016.03.29-22.25.59:145][901]LogModuleManager: Shutting down and abandoning module CookingStats (201)
+[2016.03.29-22.25.59:145][901]LogModuleManager: Shutting down and abandoning module CrashTracker (200)
+[2016.03.29-22.25.59:145][901]LogModuleManager: Shutting down and abandoning module SceneOutliner (199)
+[2016.03.29-22.25.59:145][901]LogModuleManager: Shutting down and abandoning module SuperSearch (198)
+[2016.03.29-22.25.59:145][901]LogModuleManager: Shutting down and abandoning module WidgetCarousel (197)
+[2016.03.29-22.25.59:145][901]LogModuleManager: Shutting down and abandoning module AddContentDialog (196)
+[2016.03.29-22.25.59:162][901]LogModuleManager: Shutting down and abandoning module EditorWidgets (195)
+[2016.03.29-22.25.59:162][901]LogModuleManager: Shutting down and abandoning module CollectionManager (194)
+[2016.03.29-22.25.59:163][901]LogModuleManager: Shutting down and abandoning module StatsViewer (193)
+[2016.03.29-22.25.59:163][901]LogModuleManager: Shutting down and abandoning module FoliageEdit (192)
+[2016.03.29-22.25.59:163][901]LogModuleManager: Shutting down and abandoning module LandscapeEditor (191)
+[2016.03.29-22.25.59:164][901]LogModuleManager: Shutting down and abandoning module ActorPickerMode (190)
+[2016.03.29-22.25.59:164][901]LogModuleManager: Shutting down and abandoning module GeometryMode (189)
+[2016.03.29-22.25.59:164][901]LogModuleManager: Shutting down and abandoning module TextureAlignMode (188)
+[2016.03.29-22.25.59:164][901]LogModuleManager: Shutting down and abandoning module BspMode (187)
+[2016.03.29-22.25.59:164][901]LogModuleManager: Shutting down and abandoning module PlacementMode (186)
+[2016.03.29-22.25.59:164][901]LogModuleManager: Shutting down and abandoning module AutomationWorker (185)
+[2016.03.29-22.25.59:164][901]LogModuleManager: Shutting down and abandoning module CharacterAI (184)
+[2016.03.29-22.25.59:164][901]LogModuleManager: Shutting down and abandoning module SmartSnapping (183)
+[2016.03.29-22.25.59:164][901]LogModuleManager: Shutting down and abandoning module ViewportSnapping (182)
+[2016.03.29-22.25.59:164][901]LogModuleManager: Shutting down and abandoning module LogVisualizer (181)
+[2016.03.29-22.25.59:164][901]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (180)
+[2016.03.29-22.25.59:166][901]LogModuleManager: Shutting down and abandoning module IntroTutorials (179)
+[2016.03.29-22.25.59:166][901]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (178)
+[2016.03.29-22.25.59:166][901]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (177)
+[2016.03.29-22.25.59:166][901]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (176)
+[2016.03.29-22.25.59:166][901]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (175)
+[2016.03.29-22.26.00:157][901]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (174)
+[2016.03.29-22.26.00:157][901]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (173)
+[2016.03.29-22.26.00:157][901]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (172)
+[2016.03.29-22.26.00:157][901]LogModuleManager: Shutting down and abandoning module MergeActors (171)
+[2016.03.29-22.26.00:157][901]LogModuleManager: Shutting down and abandoning module SizeMap (170)
+[2016.03.29-22.26.00:157][901]LogModuleManager: Shutting down and abandoning module TreeMap (169)
+[2016.03.29-22.26.00:158][901]LogModuleManager: Shutting down and abandoning module ReferenceViewer (168)
+[2016.03.29-22.26.00:158][901]LogModuleManager: Shutting down and abandoning module LocalizationService (167)
+[2016.03.29-22.26.00:158][901]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (166)
+[2016.03.29-22.26.00:158][901]LogModuleManager: Shutting down and abandoning module HardwareTargeting (165)
+[2016.03.29-22.26.00:158][901]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (164)
+[2016.03.29-22.26.00:158][901]LogModuleManager: Shutting down and abandoning module UndoHistory (163)
+[2016.03.29-22.26.00:158][901]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (162)
+[2016.03.29-22.26.00:158][901]LogModuleManager: Shutting down and abandoning module UserFeedback (161)
+[2016.03.29-22.26.00:158][901]LogModuleManager: Shutting down and abandoning module XmlParser (160)
+[2016.03.29-22.26.00:158][901]LogModuleManager: Shutting down and abandoning module Blutility (159)
+[2016.03.29-22.26.00:158][901]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (158)
+[2016.03.29-22.26.00:159][901]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (157)
+[2016.03.29-22.26.00:159][901]LogModuleManager: Shutting down and abandoning module InputBindingEditor (156)
+[2016.03.29-22.26.00:160][901]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (155)
+[2016.03.29-22.26.00:160][901]LogModuleManager: Shutting down and abandoning module SettingsEditor (154)
+[2016.03.29-22.26.00:160][901]LogModuleManager: Shutting down and abandoning module ProjectLauncher (153)
+[2016.03.29-22.26.00:161][901]LogModuleManager: Shutting down and abandoning module SessionFrontend (152)
+[2016.03.29-22.26.00:161][901]LogModuleManager: Shutting down and abandoning module ProfilerClient (151)
+[2016.03.29-22.26.00:162][901]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (150)
+[2016.03.29-22.26.00:162][901]LogModuleManager: Shutting down and abandoning module DeviceManager (149)
+[2016.03.29-22.26.00:163][901]LogModuleManager: Shutting down and abandoning module AutomationController (148)
+[2016.03.29-22.26.00:163][901]LogModuleManager: Shutting down and abandoning module AutomationWindow (147)
+[2016.03.29-22.26.00:164][901]LogModuleManager: Shutting down and abandoning module Layers (146)
+[2016.03.29-22.26.00:165][901]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (145)
+[2016.03.29-22.26.00:165][901]LogModuleManager: Shutting down and abandoning module DetailCustomizations (144)
+[2016.03.29-22.26.00:165][901]LogModuleManager: Shutting down and abandoning module PackagesDialog (143)
+[2016.03.29-22.26.00:165][901]LogModuleManager: Shutting down and abandoning module Persona (142)
+[2016.03.29-22.26.00:166][901]LogModuleManager: Shutting down and abandoning module Kismet (141)
+[2016.03.29-22.26.00:166][901]LogModuleManager: Shutting down and abandoning module GraphEditor (140)
+[2016.03.29-22.26.00:167][901]LogModuleManager: Shutting down and abandoning module ClassViewer (139)
+[2016.03.29-22.26.00:167][901]LogModuleManager: Shutting down and abandoning module Toolbox (138)
+[2016.03.29-22.26.00:167][901]LogModuleManager: Shutting down and abandoning module ModuleUI (137)
+[2016.03.29-22.26.00:168][901]LogModuleManager: Shutting down and abandoning module MovieSceneTools (136)
+[2016.03.29-22.26.00:168][901]LogModuleManager: Shutting down and abandoning module OutputLog (135)
+[2016.03.29-22.26.00:168][901]LogModuleManager: Shutting down and abandoning module GammaUI (134)
+[2016.03.29-22.26.00:169][901]LogModuleManager: Shutting down and abandoning module Documentation (133)
+[2016.03.29-22.26.00:169][901]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (132)
+[2016.03.29-22.26.00:169][901]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (131)
+[2016.03.29-22.26.00:169][901]LogModuleManager: Shutting down and abandoning module AnalyticsET (130)
+[2016.03.29-22.26.00:169][901]LogModuleManager: Shutting down and abandoning module Analytics (129)
+[2016.03.29-22.26.00:169][901]LogModuleManager: Shutting down and abandoning module AITestSuite (128)
+[2016.03.29-22.26.00:170][901]LogModuleManager: Shutting down and abandoning module GameplayDebugger (127)
+[2016.03.29-22.26.00:170][901]LogModuleManager: Shutting down and abandoning module AIModule (126)
+[2016.03.29-22.26.00:170][901]LogModuleManager: Shutting down and abandoning module ProfilerService (125)
+[2016.03.29-22.26.00:344][901]LogModuleManager: Shutting down and abandoning module TaskGraph (124)
+[2016.03.29-22.26.00:346][901]LogModuleManager: Shutting down and abandoning module SlateRemote (123)
+[2016.03.29-22.26.00:346][901]LogModuleManager: Shutting down and abandoning module SteamVRController (122)
+[2016.03.29-22.26.00:346][901]LogModuleManager: Shutting down and abandoning module SteamVR (121)
+[2016.03.29-22.26.00:346][901]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (120)
+[2016.03.29-22.26.00:346][901]LogModuleManager: Shutting down and abandoning module OculusLibrary (119)
+[2016.03.29-22.26.00:346][901]LogModuleManager: Shutting down and abandoning module OculusInput (118)
+[2016.03.29-22.26.00:346][901]LogModuleManager: Shutting down and abandoning module LeapMotionController (117)
+[2016.03.29-22.26.00:358][901]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (116)
+[2016.03.29-22.26.00:358][901]LogModuleManager: Shutting down and abandoning module CableComponent (115)
+[2016.03.29-22.26.00:358][901]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (114)
+[2016.03.29-22.26.00:358][901]LogModuleManager: Shutting down and abandoning module MessagingDebugger (113)
+[2016.03.29-22.26.00:360][901]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (112)
+[2016.03.29-22.26.00:360][901]LogModuleManager: Shutting down and abandoning module HTML5Networking (111)
+[2016.03.29-22.26.00:360][901]LogModuleManager: Shutting down and abandoning module CodeView (110)
+[2016.03.29-22.26.00:360][901]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (109)
+[2016.03.29-22.26.00:360][901]LogModuleManager: Shutting down and abandoning module PluginBrowser (108)
+[2016.03.29-22.26.00:360][901]LogModuleManager: Shutting down and abandoning module EpicSurvey (107)
+[2016.03.29-22.26.00:360][901]LogModuleManager: Shutting down and abandoning module DesktopPlatform (106)
+[2016.03.29-22.26.00:361][901]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (105)
+[2016.03.29-22.26.00:361][901]LogModuleManager: Shutting down and abandoning module UObjectPlugin (104)
+[2016.03.29-22.26.00:361][901]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (103)
+[2016.03.29-22.26.00:361][901]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (102)
+[2016.03.29-22.26.00:361][901]LogModuleManager: Shutting down and abandoning module SourceControl (101)
+[2016.03.29-22.26.00:361][901]LogModuleManager: Shutting down and abandoning module GitSourceControl (100)
+[2016.03.29-22.26.00:361][901]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (99)
+[2016.03.29-22.26.00:361][901]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (98)
+[2016.03.29-22.26.00:361][901]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (97)
+[2016.03.29-22.26.00:361][901]LogModuleManager: Shutting down and abandoning module MeshPaint (96)
+[2016.03.29-22.26.00:361][901]LogModuleManager: Shutting down and abandoning module SlateReflector (95)
+[2016.03.29-22.26.00:362][901]LogModuleManager: Shutting down and abandoning module HotReload (94)
+[2016.03.29-22.26.00:362][901]LogModuleManager: Shutting down and abandoning module MainFrame (93)
+[2016.03.29-22.26.00:362][901]LogModuleManager: Shutting down and abandoning module LevelEditor (92)
+[2016.03.29-22.26.00:364][901]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (91)
+[2016.03.29-22.26.00:371][901]LogModuleManager: Shutting down and abandoning module AssetRegistry (90)
+[2016.03.29-22.26.00:714][901]LogModuleManager: Shutting down and abandoning module ContentBrowser (89)
+[2016.03.29-22.26.00:716][901]LogModuleManager: Shutting down and abandoning module Paper2DEditor (88)
+[2016.03.29-22.26.00:718][901]LogModuleManager: Shutting down and abandoning module Star_Traders (87)
+[2016.03.29-22.26.00:719][901]LogModuleManager: Shutting down and abandoning module UdpMessaging (86)
+[2016.03.29-22.26.00:819][901]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (85)
+[2016.03.29-22.26.00:819][901]LogModuleManager: Shutting down and abandoning module Paper2D (84)
+[2016.03.29-22.26.00:819][901]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (83)
+[2016.03.29-22.26.00:835][901]LogModuleManager: Shutting down and abandoning module Media (82)
+[2016.03.29-22.26.00:835][901]LogModuleManager: Shutting down and abandoning module WmfMedia (81)
+[2016.03.29-22.26.00:835][901]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (80)
+[2016.03.29-22.26.00:835][901]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (79)
+[2016.03.29-22.26.00:835][901]LogModuleManager: Shutting down and abandoning module PropertyEditor (78)
+[2016.03.29-22.26.00:835][901]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (77)
+[2016.03.29-22.26.00:839][901]LogModuleManager: Shutting down and abandoning module FunctionalTesting (76)
+[2016.03.29-22.26.00:839][901]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (75)
+[2016.03.29-22.26.00:839][901]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (74)
+[2016.03.29-22.26.00:839][901]LogModuleManager: Shutting down and abandoning module MessageLog (73)
+[2016.03.29-22.26.00:839][901]LogModuleManager: Shutting down and abandoning module Sequencer (72)
+[2016.03.29-22.26.00:840][901]LogModuleManager: Shutting down and abandoning module AssetTools (71)
+[2016.03.29-22.26.00:843][901]LogModuleManager: Shutting down and abandoning module UMGEditor (70)
+[2016.03.29-22.26.00:844][901]LogModuleManager: Shutting down and abandoning module UMG (69)
+[2016.03.29-22.26.00:845][901]LogModuleManager: Shutting down and abandoning module Slate (68)
+[2016.03.29-22.26.00:845][901]LogModuleManager: Shutting down and abandoning module EditorStyle (67)
+[2016.03.29-22.26.00:858][901]LogModuleManager: Shutting down and abandoning module SessionServices (66)
+[2016.03.29-22.26.00:858][901]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (65)
+[2016.03.29-22.26.00:858][901]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (64)
+[2016.03.29-22.26.00:858][901]LogModuleManager: Shutting down and abandoning module XAudio2 (63)
+[2016.03.29-22.26.00:858][901]LogModuleManager: Shutting down and abandoning module Networking (61)
+[2016.03.29-22.26.00:858][901]LogModuleManager: Shutting down and abandoning module Core (60)
+[2016.03.29-22.26.00:858][901]LogModuleManager: Shutting down and abandoning module KismetCompiler (59)
+[2016.03.29-22.26.00:858][901]LogModuleManager: Shutting down and abandoning module PhysXFormats (58)
+[2016.03.29-22.26.00:859][901]LogModuleManager: Shutting down and abandoning module MeshUtilities (57)
+[2016.03.29-22.26.00:860][901]LogModuleManager: Shutting down and abandoning module DerivedDataCache (56)
+[2016.03.29-22.26.00:951][901]LogDerivedDataCache: Shutdown
+[2016.03.29-22.26.00:951][901]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (55)
+[2016.03.29-22.26.00:954][901]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (54)
+[2016.03.29-22.26.00:954][901]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (53)
+[2016.03.29-22.26.00:955][901]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (52)
+[2016.03.29-22.26.00:955][901]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (51)
+[2016.03.29-22.26.00:955][901]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (50)
+[2016.03.29-22.26.00:955][901]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (49)
+[2016.03.29-22.26.00:956][901]LogModuleManager: Shutting down and abandoning module ImageWrapper (48)
+[2016.03.29-22.26.00:956][901]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (47)
+[2016.03.29-22.26.00:956][901]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (46)
+[2016.03.29-22.26.00:956][901]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (45)
+[2016.03.29-22.26.00:956][901]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (44)
+[2016.03.29-22.26.00:956][901]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (43)
+[2016.03.29-22.26.00:956][901]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (42)
+[2016.03.29-22.26.00:956][901]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (41)
+[2016.03.29-22.26.00:956][901]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (40)
+[2016.03.29-22.26.00:957][901]LogModuleManager: Shutting down and abandoning module Messaging (39)
+[2016.03.29-22.26.00:957][901]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (38)
+[2016.03.29-22.26.00:958][901]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (37)
+[2016.03.29-22.26.00:958][901]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (36)
+[2016.03.29-22.26.00:958][901]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (35)
+[2016.03.29-22.26.00:958][901]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (34)
+[2016.03.29-22.26.00:958][901]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (33)
+[2016.03.29-22.26.00:958][901]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (32)
+[2016.03.29-22.26.00:958][901]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (31)
+[2016.03.29-22.26.00:958][901]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (30)
+[2016.03.29-22.26.00:958][901]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (29)
+[2016.03.29-22.26.00:958][901]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (28)
+[2016.03.29-22.26.00:959][901]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (27)
+[2016.03.29-22.26.00:959][901]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (26)
+[2016.03.29-22.26.00:959][901]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (25)
+[2016.03.29-22.26.00:959][901]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (24)
+[2016.03.29-22.26.00:959][901]LogModuleManager: Shutting down and abandoning module TargetPlatform (23)
+[2016.03.29-22.26.00:959][901]LogModuleManager: Shutting down and abandoning module InputCore (22)
+[2016.03.29-22.26.00:959][901]LogModuleManager: Shutting down and abandoning module Settings (21)
+[2016.03.29-22.26.00:959][901]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (19)
+[2016.03.29-22.26.00:959][901]LogModuleManager: Shutting down and abandoning module HTTP (18)
+[2016.03.29-22.26.02:464][901]LogModuleManager: Shutting down and abandoning module XMPP (17)
+[2016.03.29-22.26.02:467][901]LogModuleManager: Shutting down and abandoning module OculusRift (16)
+[2016.03.29-22.26.02:468][901]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (15)
+[2016.03.29-22.26.02:469][901]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2016.03.29-22.26.02:469][901]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2016.03.29-22.26.02:469][901]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2016.03.29-22.26.02:469][901]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2016.03.29-22.26.02:521][901]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2016.03.29-22.26.02:522][901]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2016.03.29-22.26.02:522][901]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2016.03.29-22.26.02:522][901]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2016.03.29-22.26.02:522][901]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2016.03.29-22.26.02:522][901]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2016.03.29-22.26.02:522][901]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2016.03.29-22.26.02:523][901]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2016.03.29-22.26.02:523][901]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2016.03.29-22.26.02:523][901]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2016.03.29-22.26.02:525][901]LogExit: Exiting.
+[2016.03.29-22.26.02:531][901]Log file closed, 03/29/16 16:26:02
