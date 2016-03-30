@@ -39,8 +39,7 @@ To access the testing utility, once the project is open within Unreal Engine, th
 
 6. Record if and in what relative direction the ship moved for steps 2-5. Record if it moved in a way not described in the respective steps.
 
-The test is considered a success if:
-	the ship moved in all the expected ways as described in the instructions.
+The test is considered a success if the ship moved in all the expected ways as described in the instructions.
 
 The test is considered a failure if the above is not true.
 
@@ -62,9 +61,10 @@ The test is considered a failure if the above is not true.
 7. Repeat steps 4-6 until either you have recorded 10 times or you have seen stars with 0, 1, 2, and 3 planets orbiting them.
 
 The test is considered a success if:
-	the grid in step 2 was observed as described in the step,
 
-	and all 4 configurations of planets were observed in step 7.
+the grid in step 2 was observed as described in the step, 
+
+and all 4 configurations of planets were observed in step 7.
 
 
 The test is considered a failure if either of the above conditions are not true.
@@ -87,13 +87,14 @@ The test is considered a failure if either of the above conditions are not true.
 7. Select the resource you bought, then SELL it. Exit from the menus, then record the money value.
 
 This test is considered successful if:
-	the tester was able to complete the tasks described in the instructions,
 
-	the recorded titles of the menus are all different from each other, and describe their functionality sufficiently (i.e. the 
+the tester was able to complete the tasks described in the instructions,
+
+the recorded titles of the menus are all different from each other, and describe their functionality sufficiently (i.e. the 
 buy menu should be titled "BUY RESOURCES" or similar),
 
-	the initial value recorded for money is greater than both the values recorded after, !(this is a gameplay decision we still need to make, regarding the sold value)
+the initial value recorded for money is greater than both the values recorded after, !(this is a gameplay decision we still need to make, regarding the sold value)
 
-	and the value recorded after selling the resource is greater than when that resource was bought.
+and the value recorded after selling the resource is greater than when that resource was bought.
 
 The test is considered a failure if either of the above conditions are not true.
