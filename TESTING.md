@@ -21,11 +21,11 @@ Since the project is being made in Unreal Engine, the engine generates and provi
 
 To access the testing utility, once the project is open within Unreal Engine, then Window -> Developer Tools -> Session Frontend. Switch the to Automation tab, then one can perform tests using the interface shown in the below screenshot.
 
-todo
+![automated testing image](https://github.com/francesca-figueroa/Star_Traders/blob/master/automationTestingExample.PNG "Automated testing.")
 
 **User Acceptance Tests**
 
-TESTING PLAYER MOVEMENT
+**TESTING PLAYER MOVEMENT**
 
 1. Start the game using Unreal Engine.
 
@@ -45,7 +45,7 @@ The test is considered a success if:
 The test is considered a failure if the above is not true.
 
 
-TESTING CORRECT GRAPHICAL CONFIGURATION
+**TESTING CORRECT GRAPHICAL CONFIGURATION**
 
 1. Start the game using Unreal Engine.
 
@@ -70,7 +70,7 @@ The test is considered a success if:
 The test is considered a failure if either of the above conditions are not true.
 
 
-TESTING CONVERTING RESOURCES TO MONEY AND TRADING MENUS
+**TESTING CONVERTING RESOURCES TO MONEY AND TRADING MENUS**
 
 1. Start the game using Unreal Engine.
 
