@@ -1,0 +1,1080 @@
+﻿[2016.04.03-22.00.20:200][  0]Log file open, 04/03/16 16:00:20
+[2016.04.03-22.00.20:200][  0]LogInit:Display: Running engine for game: Star_Traders
+[2016.04.03-22.00.20:200][  0]LogPlatformFile: Not using cached read wrapper
+[2016.04.03-22.00.20:200][  0]LogInit:Display: RandInit(1404241107) SRandInit(1404241110).
+[2016.04.03-22.00.20:200][  0]LogTaskGraph: Started task graph with 4 named threads and 5 total threads.
+[2016.04.03-22.00.20:200][  0]LogStats: Stats thread started at 0.121230
+[2016.04.03-22.00.20:200][  0]LogInit: Version: 4.10.4-2872498+++depot+UE4-Releases+4.10
+[2016.04.03-22.00.20:200][  0]LogInit: API Version: 2758231
+[2016.04.03-22.00.20:200][  0]LogInit: Compiled (64-bit): Feb 18 2016 15:47:04
+[2016.04.03-22.00.20:200][  0]LogInit: Compiled with Visual C++: 19.00.23026.00
+[2016.04.03-22.00.20:200][  0]LogInit: Build Configuration: Development
+[2016.04.03-22.00.20:200][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.10
+[2016.04.03-22.00.20:200][  0]LogInit: Command line:  
+[2016.04.03-22.00.20:200][  0]LogInit: Base directory: C:/Program Files/Epic Games/4.10/Engine/Binaries/Win64/
+[2016.04.03-22.00.20:200][  0]LogInit: Rocket: 1
+[2016.04.03-22.00.20:232][  0]LogInit: Using libcurl 7.41.0
+[2016.04.03-22.00.20:232][  0]LogInit:  - built for x86_64-pc-win32
+[2016.04.03-22.00.20:232][  0]LogInit:  - supports SSL with WinSSL
+[2016.04.03-22.00.20:232][  0]LogInit:  - other features:
+[2016.04.03-22.00.20:232][  0]LogInit:      CURL_VERSION_SSL
+[2016.04.03-22.00.20:232][  0]LogInit:      CURL_VERSION_IPV6
+[2016.04.03-22.00.20:232][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2016.04.03-22.00.20:232][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2016.04.03-22.00.20:232][  0]LogInit:      CURL_VERSION_IDN
+[2016.04.03-22.00.20:232][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2016.04.03-22.00.20:232][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2016.04.03-22.00.20:232][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2016.04.03-22.00.20:232][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2016.04.03-22.00.20:232][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2016.04.03-22.00.20:240][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2016.04.03-22.00.20:247][  0]LogInit: Object subsystem initialized
+[2016.04.03-22.00.20:248][  0]LogInit: Selected Device Profile: [Windows]
+[2016.04.03-22.00.20:248][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2016.04.03-22.00.20:257][  0]LogInit: Computer: NYK
+[2016.04.03-22.00.20:257][  0]LogInit: User: Nicholas
+[2016.04.03-22.00.20:257][  0]LogInit: CPU Page size=4096, Cores=2
+[2016.04.03-22.00.20:257][  0]LogInit: High frequency timer resolution =2.435769 MHz
+[2016.04.03-22.00.20:257][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2016.04.03-22.00.20:257][  0]LogMemory: Platform Memory Stats for Windows
+[2016.04.03-22.00.20:258][  0]LogMemory: Process Physical Memory: 55.59 MB used, 55.59 MB peak
+[2016.04.03-22.00.20:258][  0]LogMemory: Process Virtual Memory: 55.58 MB used, 55.58 MB peak
+[2016.04.03-22.00.20:258][  0]LogMemory: Physical Memory: 2801.97 MB used, 8097.09 MB total
+[2016.04.03-22.00.20:258][  0]LogMemory: Virtual Memory: 380.52 MB used, 134217728.00 MB total
+[2016.04.03-22.00.20:307][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2016.04.03-22.00.20:808][  0]LogD3D11RHI: Found D3D11 adapter 0: Intel(R) HD Graphics Family (Feature Level 11_0)
+[2016.04.03-22.00.20:808][  0]LogD3D11RHI: Adapter has 112MB of dedicated video memory, 0MB of dedicated system memory, and 4048MB of shared system memory, 1 output[s]
+[2016.04.03-22.00.20:810][  0]LogD3D11RHI: Found D3D11 adapter 1: Microsoft Basic Render Driver (Feature Level 11_0)
+[2016.04.03-22.00.20:810][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 4048MB of shared system memory, 0 output[s]
+[2016.04.03-22.00.20:810][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2016.04.03-22.00.20:814][  0]LogD3D11RHI: !Direct3DDevice
+[2016.04.03-22.00.20:814][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2016.04.03-22.00.20:821][  0]LogD3D11RHI: Async texture creation enabled
+[2016.04.03-22.00.20:826][  0]LogShaderCompilers: Guid format shader working directory is 21 characters bigger than the processId version (E:/Star_Traders/Star_Traders/Intermediate/Shaders/WorkingDirectory/6036/).
+[2016.04.03-22.00.20:826][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Nicholas/AppData/Local/Temp/UnrealShaderWorkingDir/A6BE7CC644763C6FDC979D8B49182A36/'.
+[2016.04.03-22.00.20:826][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2016.04.03-22.00.22:464][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2016.04.03-22.00.22:471][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2016.04.03-22.00.22:476][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2016.04.03-22.00.22:482][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2016.04.03-22.00.22:488][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2016.04.03-22.00.22:492][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2016.04.03-22.00.22:497][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2016.04.03-22.00.22:501][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2016.04.03-22.00.22:505][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2016.04.03-22.00.22:509][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2016.04.03-22.00.22:513][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2016.04.03-22.00.22:520][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2016.04.03-22.00.22:520][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2016.04.03-22.00.22:521][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2016.04.03-22.00.22:539][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2016.04.03-22.00.22:542][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2016.04.03-22.00.22:545][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2016.04.03-22.00.22:553][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2016.04.03-22.00.22:553][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.04.03-22.00.22:750][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2016.04.03-22.00.22:938][  0]LogDerivedDataCache: Loaded boot cache 0.19s 41MB C:/Users/Nicholas/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc.
+[2016.04.03-22.00.22:938][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Nicholas/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc
+[2016.04.03-22.00.22:938][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file E:/Star_Traders/Star_Traders/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.04.03-22.00.22:938][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2016.04.03-22.00.22:938][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file E:/Star_Traders/Star_Traders/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2016.04.03-22.00.22:938][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2016.04.03-22.00.23:015][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2016.04.03-22.00.23:028][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Nicholas/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2016.04.03-22.00.23:727][  0]LogInit: Selected Device Profile: [Windows]
+[2016.04.03-22.00.23:739][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2016.04.03-22.00.24:032][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2016.04.03-22.00.24:032][  0]LogMeshUtilities: No automatic mesh merging module available
+[2016.04.03-22.00.24:560][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2016.04.03-22.00.27:313][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2016.04.03-22.00.27:515][  0]LogAssetRegistry: FAssetRegistry took 0.0137 seconds to start up
+[2016.04.03-22.00.27:858][  0]SourceControl: Info Source control is disabled
+[2016.04.03-22.00.27:945][  0]SourceControl: Info Source control is disabled
+[2016.04.03-22.00.27:965][  0]SourceControl: Info Source control is disabled
+[2016.04.03-22.00.27:979][  0]SourceControl: Info Source control is disabled
+[2016.04.03-22.00.28:393][  0]LogObj: 28641 objects as part of root set at end of initial load.
+[2016.04.03-22.00.28:393][  0]LogUObjectAllocator: 6108880 out of 0 bytes used by permanent object pool.
+[2016.04.03-22.00.28:521][  0]LogEngine: Initializing Engine...
+[2016.04.03-22.00.28:526][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.8.0.0
+[2016.04.03-22.00.29:164][  0]LogHMD: SteamVR failed to initialize.  Err: 108
+[2016.04.03-22.00.29:394][  0]LogAIModule: Creating AISystem for world NewWorld
+[2016.04.03-22.00.29:427][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.04.03-22.00.29:511][  0]LogInit: FAudioDevice initialized.
+[2016.04.03-22.00.29:539][  0]LogDerivedDataCache: Saved boot cache 0.03s 41MB C:/Users/Nicholas/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc.
+[2016.04.03-22.00.29:542][  0]LogInit: Texture streaming: Enabled
+[2016.04.03-22.00.29:567][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2016.04.03-22.00.29:567][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.10.4-2872498+++depot+UE4-Releases+4.10
+[2016.04.03-22.00.29:567][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId 80188b50411f2a5ff0bab5927dc9394b|e3c1f9506af74fedb8f3c66f147e7c41|503f1541-d5a4-4aac-801d-4d5e695784c7
+[2016.04.03-22.00.29:569][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
+[2016.04.03-22.00.29:596][  0]LogInit: Transaction tracking system initialized
+[2016.04.03-22.00.29:715][  0]BlueprintLog: New page: Editor Load
+[2016.04.03-22.00.30:127][  0]LocalizationService: Info Localization service is disabled
+[2016.04.03-22.00.30:461][  0]LogConsoleResponse:Display: 
+[2016.04.03-22.00.30:725][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2016.04.03-22.00.30:857][  0]LogFileCache: Scanning file cache for directory 'E:/Star_Traders/Star_Traders/Content/' took 0.03s
+[2016.04.03-22.00.30:857][  0]SourceControl: Info Source control is disabled
+[2016.04.03-22.00.30:859][  0]Cmd: MAP LOAD FILE="E:/Star_Traders/Star_Traders/Content/Star_Traders_Resorces/Levels/DemoLevel.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.04.03-22.00.30:860][  0]LightingResults: New page: Lighting Build
+[2016.04.03-22.00.30:867][  0]MapCheck: New page: Map Check
+[2016.04.03-22.00.30:867][  0]LightingResults: New page: Lighting Build
+[2016.04.03-22.00.30:897][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000024703B3AAC0
+[2016.04.03-22.00.31:898][  0]LogAIModule: Creating AISystem for world DemoLevel
+[2016.04.03-22.00.31:917][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.04.03-22.00.31:921][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.04.03-22.00.31:998][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 76.82ms to complete.
+[2016.04.03-22.00.31:998][  0]LogFileHelpers: Loading map 'DemoLevel' took 1.140
+[2016.04.03-22.00.32:219][  0]LogCollectionManager: Loaded 0 collections in 0.002609 seconds
+[2016.04.03-22.00.32:268][  0]LogFileCache: Scanning file cache for directory 'E:/Star_Traders/Star_Traders/Saved/Collections/' took 0.01s
+[2016.04.03-22.00.32:268][  0]LogFileCache: Scanning file cache for directory 'E:/Star_Traders/Star_Traders/Content/Developers/Nicholas/Collections/' took 0.01s
+[2016.04.03-22.00.32:268][  0]LogFileCache: Scanning file cache for directory 'E:/Star_Traders/Star_Traders/Content/Collections/' took 0.01s
+[2016.04.03-22.00.32:268][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2016.04.03-22.00.32:282][  0]LogContentBrowser: Native class hierarchy populated in 0.0132 seconds. Added 1894 classes and 340 folders.
+[2016.04.03-22.00.32:298][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0013 seconds. Added 0 classes and 0 folders.
+[2016.04.03-22.00.32:482][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0013 seconds. Added 0 classes and 0 folders.
+[2016.04.03-22.00.32:494][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0024 seconds. Added 1 classes and 2 folders.
+[2016.04.03-22.00.32:606][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2016.04.03-22.00.32:619][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2016.04.03-22.00.32:644][  0]LogLoad: Full Startup: 13.35 seconds (BP compile: 0.27 seconds)
+[2016.04.03-22.00.32:663][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2016.04.03-22.00.32:664][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2016.04.03-22.00.32:668][  0]LogOcInput: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.8.0.0
+[2016.04.03-22.00.32:771][  0]LogContentStreaming: Texture pool size now 200 MB
+[2016.04.03-22.00.32:962][  0]LogRenderer: Reallocating scene render targets to support 904x520 (Frame:2).
+[2016.04.03-22.00.33:494][  6]LogAssetRegistry: Asset discovery search completed in 5.9917 seconds
+[2016.04.03-22.00.33:495][  6]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2016.04.03-22.00.33:495][  6]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000043 seconds (updated 0 objects)
+[2016.04.03-22.00.38:075][253]LogLinker:Warning: Asset '../../../Engine/Content/ArtTools/RenderToTexture/Macros/RenderToTextureMacros.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.04.03-22.00.38:544][253]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0017 seconds. Added 107 classes and 0 folders.
+[2016.04.03-22.00.39:243][253]LogActor:Warning: GameNetworkManager /Engine/Transient.World_3:PersistentLevel.GameNetworkManager_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.04.03-22.00.43:500][442]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.04.03-22.00.43:502][442]PIE: New page: PIE session: DemoLevel (Apr 3, 2016, 10:00:43 AM)
+[2016.04.03-22.00.43:502][442]LogPlayLevel: Creating play world package: /Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel
+[2016.04.03-22.00.43:504][442]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001891s)
+[2016.04.03-22.00.43:505][442]LogAIModule: Creating AISystem for world DemoLevel
+[2016.04.03-22.00.43:506][442]LogPlayLevel: PIE: World Init took: (0.001126s)
+[2016.04.03-22.00.43:506][442]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Star_Traders_Resorces/Levels/DemoLevel.DemoLevel to /Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel (0.003464s)
+[2016.04.03-22.00.43:582][442]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.04.03-22.00.43:592][442]LogInit: FAudioDevice initialized.
+[2016.04.03-22.00.43:647][442]LogWorld: Game class is 'Star_Traders_GameMode_C'
+[2016.04.03-22.00.43:651][442]LogWorld: Bringing World /Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel up for play (max tick rate 60) at 2016.04.03-16.00.43
+[2016.04.03-22.00.43:651][442]LogActor:Warning: GameSession /Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.GameSession_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.04.03-22.00.43:652][442]LogActor:Warning: GameNetworkManager /Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.GameNetworkManager_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.04.03-22.00.43:652][442]LogWorld: Bringing up level for play took: 0.002596
+[2016.04.03-22.00.43:662][442]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_0.Cube)
+[2016.04.03-22.00.43:663][442]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_1.Cube)
+[2016.04.03-22.00.43:664][442]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_2.Cube)
+[2016.04.03-22.00.43:665][442]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_3.Cube)
+[2016.04.03-22.00.43:665][442]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_4.Cube)
+[2016.04.03-22.00.43:666][442]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_5.Cube)
+[2016.04.03-22.00.43:667][442]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_6.Cube)
+[2016.04.03-22.00.43:668][442]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_7.Cube)
+[2016.04.03-22.00.43:669][442]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_8.Cube)
+[2016.04.03-22.00.43:669][442]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_9.Cube)
+[2016.04.03-22.00.43:670][442]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_10.Cube)
+[2016.04.03-22.00.43:671][442]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_11.Cube)
+[2016.04.03-22.00.43:672][442]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_12.Cube)
+[2016.04.03-22.00.43:672][442]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_13.Cube)
+[2016.04.03-22.00.43:673][442]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_14.Cube)
+[2016.04.03-22.00.43:674][442]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_15.Cube)
+[2016.04.03-22.00.43:675][442]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_16.Cube)
+[2016.04.03-22.00.43:675][442]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_17.Cube)
+[2016.04.03-22.00.43:676][442]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_18.Cube)
+[2016.04.03-22.00.43:676][442]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_19.Cube)
+[2016.04.03-22.00.43:677][442]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_20.Cube)
+[2016.04.03-22.00.43:678][442]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_21.Cube)
+[2016.04.03-22.00.43:679][442]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_22.Cube)
+[2016.04.03-22.00.43:680][442]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_23.Cube)
+[2016.04.03-22.00.43:681][442]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_24.Cube)
+[2016.04.03-22.00.43:682][442]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_25.Cube)
+[2016.04.03-22.00.43:682][442]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_26.Cube)
+[2016.04.03-22.00.43:683][442]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_27.Cube)
+[2016.04.03-22.00.43:684][442]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_28.Cube)
+[2016.04.03-22.00.43:684][442]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_29.Cube)
+[2016.04.03-22.00.43:685][442]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_30.Cube)
+[2016.04.03-22.00.43:685][442]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_31.Cube)
+[2016.04.03-22.00.43:686][442]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_32.Cube)
+[2016.04.03-22.00.43:686][442]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_33.Cube)
+[2016.04.03-22.00.43:687][442]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_34.Cube)
+[2016.04.03-22.00.43:687][442]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_35.Cube)
+[2016.04.03-22.00.43:688][442]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_36.Cube)
+[2016.04.03-22.00.43:688][442]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_37.Cube)
+[2016.04.03-22.00.43:689][442]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_38.Cube)
+[2016.04.03-22.00.43:689][442]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_39.Cube)
+[2016.04.03-22.00.43:690][442]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_40.Cube)
+[2016.04.03-22.00.43:690][442]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_41.Cube)
+[2016.04.03-22.00.43:691][442]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_42.Cube)
+[2016.04.03-22.00.43:691][442]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_43.Cube)
+[2016.04.03-22.00.43:692][442]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_44.Cube)
+[2016.04.03-22.00.43:692][442]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_45.Cube)
+[2016.04.03-22.00.43:693][442]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_46.Cube)
+[2016.04.03-22.00.43:693][442]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_47.Cube)
+[2016.04.03-22.00.43:694][442]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_48.Cube)
+[2016.04.03-22.00.43:694][442]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_49.Cube)
+[2016.04.03-22.00.43:695][442]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_50.Cube)
+[2016.04.03-22.00.43:695][442]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_51.Cube)
+[2016.04.03-22.00.43:696][442]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_52.Cube)
+[2016.04.03-22.00.43:696][442]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_53.Cube)
+[2016.04.03-22.00.43:697][442]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_54.Cube)
+[2016.04.03-22.00.43:697][442]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_55.Cube)
+[2016.04.03-22.00.43:698][442]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_56.Cube)
+[2016.04.03-22.00.43:698][442]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_57.Cube)
+[2016.04.03-22.00.43:698][442]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_58.Cube)
+[2016.04.03-22.00.43:699][442]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_59.Cube)
+[2016.04.03-22.00.43:699][442]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_60.Cube)
+[2016.04.03-22.00.43:700][442]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_61.Cube)
+[2016.04.03-22.00.43:700][442]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_62.Cube)
+[2016.04.03-22.00.43:701][442]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_63.Cube)
+[2016.04.03-22.00.43:701][442]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_64.Cube)
+[2016.04.03-22.00.43:702][442]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_65.Cube)
+[2016.04.03-22.00.43:702][442]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_66.Cube)
+[2016.04.03-22.00.43:703][442]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_67.Cube)
+[2016.04.03-22.00.43:703][442]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_68.Cube)
+[2016.04.03-22.00.43:704][442]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_69.Cube)
+[2016.04.03-22.00.43:704][442]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_70.Cube)
+[2016.04.03-22.00.43:705][442]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_71.Cube)
+[2016.04.03-22.00.43:705][442]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_72.Cube)
+[2016.04.03-22.00.43:706][442]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_73.Cube)
+[2016.04.03-22.00.43:706][442]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_74.Cube)
+[2016.04.03-22.00.43:707][442]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_75.Cube)
+[2016.04.03-22.00.43:707][442]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_76.Cube)
+[2016.04.03-22.00.43:708][442]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_77.Cube)
+[2016.04.03-22.00.43:708][442]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_78.Cube)
+[2016.04.03-22.00.43:709][442]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_79.Cube)
+[2016.04.03-22.00.43:709][442]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_80.Cube)
+[2016.04.03-22.00.43:710][442]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_81.Cube)
+[2016.04.03-22.00.43:711][442]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_82.Cube)
+[2016.04.03-22.00.43:712][442]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_83.Cube)
+[2016.04.03-22.00.43:713][442]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_84.Cube)
+[2016.04.03-22.00.43:714][442]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_85.Cube)
+[2016.04.03-22.00.43:715][442]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_86.Cube)
+[2016.04.03-22.00.43:716][442]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_87.Cube)
+[2016.04.03-22.00.43:716][442]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_88.Cube)
+[2016.04.03-22.00.43:717][442]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_89.Cube)
+[2016.04.03-22.00.43:717][442]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_90.Cube)
+[2016.04.03-22.00.43:718][442]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_91.Cube)
+[2016.04.03-22.00.43:718][442]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_92.Cube)
+[2016.04.03-22.00.43:719][442]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_93.Cube)
+[2016.04.03-22.00.43:719][442]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_94.Cube)
+[2016.04.03-22.00.43:720][442]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_95.Cube)
+[2016.04.03-22.00.43:721][442]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_96.Cube)
+[2016.04.03-22.00.43:721][442]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_97.Cube)
+[2016.04.03-22.00.43:721][442]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_98.Cube)
+[2016.04.03-22.00.43:722][442]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_99.Cube)
+[2016.04.03-22.00.43:723][442]PIE: Info Play in editor start time for /Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel -0.222
+[2016.04.03-22.01.35:553][493]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000024729BF5620
+[2016.04.03-22.02.08:769][478]BlueprintLog: New page: Compile PlayerCamera
+[2016.04.03-22.02.09:367][478]BlueprintEditorCompileResults: Info [0110.08] Compile of PlayerCamera successful! [in 597 ms]
+[2016.04.03-22.02.10:514][506]LogSavePackage: Save=173.720490ms
+[2016.04.03-22.02.10:514][506]LogSavePackage: Moving 'E:/Star_Traders/Star_Traders/Saved/PlayerCameraCA731F03418B7F7D591822A782AD41C8.tmp' to 'E:/Star_Traders/Star_Traders/Content/Star_Traders_Resorces/Blueprints/Player/CameraSystem/PlayerCamera.uasset'
+[2016.04.03-22.02.10:518][506]LogSavePackage: Total save time: 754.000481ms
+[2016.04.03-22.02.10:518][506]LogSavePackage:Display: Finished SavePackage E:/Star_Traders/Star_Traders/Content/Star_Traders_Resorces/Blueprints/Player/CameraSystem/PlayerCamera.uasset
+[2016.04.03-22.02.12:584][615]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.04.03-22.02.12:584][615]PIE: New page: PIE session: DemoLevel (Apr 3, 2016, 10:02:12 AM)
+[2016.04.03-22.02.12:585][615]LogPlayLevel: Creating play world package: /Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel
+[2016.04.03-22.02.12:586][615]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001104s)
+[2016.04.03-22.02.12:586][615]LogAIModule: Creating AISystem for world DemoLevel
+[2016.04.03-22.02.12:586][615]LogPlayLevel: PIE: World Init took: (0.000770s)
+[2016.04.03-22.02.12:587][615]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Star_Traders_Resorces/Levels/DemoLevel.DemoLevel to /Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel (0.002057s)
+[2016.04.03-22.02.12:637][615]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.04.03-22.02.12:648][615]LogInit: FAudioDevice initialized.
+[2016.04.03-22.02.12:681][615]LogWorld: Game class is 'Star_Traders_GameMode_C'
+[2016.04.03-22.02.12:684][615]LogWorld: Bringing World /Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel up for play (max tick rate 60) at 2016.04.03-16.02.12
+[2016.04.03-22.02.12:684][615]LogActor:Warning: GameSession /Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.GameSession_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.04.03-22.02.12:684][615]LogActor:Warning: GameNetworkManager /Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.GameNetworkManager_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.04.03-22.02.12:685][615]LogWorld: Bringing up level for play took: 0.003023
+[2016.04.03-22.02.12:687][615]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_100.Cube)
+[2016.04.03-22.02.12:687][615]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_101.Cube)
+[2016.04.03-22.02.12:688][615]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_102.Cube)
+[2016.04.03-22.02.12:688][615]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_103.Cube)
+[2016.04.03-22.02.12:689][615]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_104.Cube)
+[2016.04.03-22.02.12:690][615]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_105.Cube)
+[2016.04.03-22.02.12:690][615]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_106.Cube)
+[2016.04.03-22.02.12:691][615]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_107.Cube)
+[2016.04.03-22.02.12:691][615]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_108.Cube)
+[2016.04.03-22.02.12:692][615]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_109.Cube)
+[2016.04.03-22.02.12:692][615]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_110.Cube)
+[2016.04.03-22.02.12:692][615]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_111.Cube)
+[2016.04.03-22.02.12:693][615]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_112.Cube)
+[2016.04.03-22.02.12:693][615]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_113.Cube)
+[2016.04.03-22.02.12:694][615]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_114.Cube)
+[2016.04.03-22.02.12:695][615]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_115.Cube)
+[2016.04.03-22.02.12:695][615]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_116.Cube)
+[2016.04.03-22.02.12:696][615]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_117.Cube)
+[2016.04.03-22.02.12:697][615]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_118.Cube)
+[2016.04.03-22.02.12:698][615]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_119.Cube)
+[2016.04.03-22.02.12:699][615]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_120.Cube)
+[2016.04.03-22.02.12:700][615]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_121.Cube)
+[2016.04.03-22.02.12:701][615]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_122.Cube)
+[2016.04.03-22.02.12:702][615]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_123.Cube)
+[2016.04.03-22.02.12:703][615]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_124.Cube)
+[2016.04.03-22.02.12:704][615]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_125.Cube)
+[2016.04.03-22.02.12:704][615]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_126.Cube)
+[2016.04.03-22.02.12:705][615]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_127.Cube)
+[2016.04.03-22.02.12:705][615]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_128.Cube)
+[2016.04.03-22.02.12:706][615]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_129.Cube)
+[2016.04.03-22.02.12:706][615]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_130.Cube)
+[2016.04.03-22.02.12:707][615]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_131.Cube)
+[2016.04.03-22.02.12:707][615]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_132.Cube)
+[2016.04.03-22.02.12:708][615]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_133.Cube)
+[2016.04.03-22.02.12:708][615]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_134.Cube)
+[2016.04.03-22.02.12:709][615]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_135.Cube)
+[2016.04.03-22.02.12:709][615]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_136.Cube)
+[2016.04.03-22.02.12:710][615]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_137.Cube)
+[2016.04.03-22.02.12:710][615]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_138.Cube)
+[2016.04.03-22.02.12:711][615]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_139.Cube)
+[2016.04.03-22.02.12:712][615]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_140.Cube)
+[2016.04.03-22.02.12:712][615]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_141.Cube)
+[2016.04.03-22.02.12:713][615]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_142.Cube)
+[2016.04.03-22.02.12:714][615]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_143.Cube)
+[2016.04.03-22.02.12:714][615]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_144.Cube)
+[2016.04.03-22.02.12:715][615]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_145.Cube)
+[2016.04.03-22.02.12:716][615]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_146.Cube)
+[2016.04.03-22.02.12:716][615]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_147.Cube)
+[2016.04.03-22.02.12:716][615]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_148.Cube)
+[2016.04.03-22.02.12:717][615]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_149.Cube)
+[2016.04.03-22.02.12:718][615]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_150.Cube)
+[2016.04.03-22.02.12:718][615]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_151.Cube)
+[2016.04.03-22.02.12:719][615]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_152.Cube)
+[2016.04.03-22.02.12:719][615]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_153.Cube)
+[2016.04.03-22.02.12:720][615]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_154.Cube)
+[2016.04.03-22.02.12:720][615]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_155.Cube)
+[2016.04.03-22.02.12:721][615]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_156.Cube)
+[2016.04.03-22.02.12:721][615]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_157.Cube)
+[2016.04.03-22.02.12:722][615]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_158.Cube)
+[2016.04.03-22.02.12:722][615]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_159.Cube)
+[2016.04.03-22.02.12:723][615]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_160.Cube)
+[2016.04.03-22.02.12:724][615]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_161.Cube)
+[2016.04.03-22.02.12:725][615]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_162.Cube)
+[2016.04.03-22.02.12:725][615]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_163.Cube)
+[2016.04.03-22.02.12:726][615]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_164.Cube)
+[2016.04.03-22.02.12:726][615]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_165.Cube)
+[2016.04.03-22.02.12:727][615]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_166.Cube)
+[2016.04.03-22.02.12:727][615]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_167.Cube)
+[2016.04.03-22.02.12:728][615]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_168.Cube)
+[2016.04.03-22.02.12:728][615]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_169.Cube)
+[2016.04.03-22.02.12:729][615]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_170.Cube)
+[2016.04.03-22.02.12:730][615]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_171.Cube)
+[2016.04.03-22.02.12:731][615]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_172.Cube)
+[2016.04.03-22.02.12:731][615]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_173.Cube)
+[2016.04.03-22.02.12:732][615]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_174.Cube)
+[2016.04.03-22.02.12:733][615]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_175.Cube)
+[2016.04.03-22.02.12:735][615]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_176.Cube)
+[2016.04.03-22.02.12:736][615]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_177.Cube)
+[2016.04.03-22.02.12:737][615]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_178.Cube)
+[2016.04.03-22.02.12:737][615]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_179.Cube)
+[2016.04.03-22.02.12:738][615]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_180.Cube)
+[2016.04.03-22.02.12:738][615]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_181.Cube)
+[2016.04.03-22.02.12:739][615]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_182.Cube)
+[2016.04.03-22.02.12:739][615]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_183.Cube)
+[2016.04.03-22.02.12:740][615]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_184.Cube)
+[2016.04.03-22.02.12:740][615]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_185.Cube)
+[2016.04.03-22.02.12:741][615]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_186.Cube)
+[2016.04.03-22.02.12:741][615]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_187.Cube)
+[2016.04.03-22.02.12:742][615]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_188.Cube)
+[2016.04.03-22.02.12:742][615]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_189.Cube)
+[2016.04.03-22.02.12:743][615]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_190.Cube)
+[2016.04.03-22.02.12:743][615]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_191.Cube)
+[2016.04.03-22.02.12:744][615]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_192.Cube)
+[2016.04.03-22.02.12:744][615]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_193.Cube)
+[2016.04.03-22.02.12:745][615]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_194.Cube)
+[2016.04.03-22.02.12:745][615]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_195.Cube)
+[2016.04.03-22.02.12:746][615]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_196.Cube)
+[2016.04.03-22.02.12:746][615]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_197.Cube)
+[2016.04.03-22.02.12:747][615]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_198.Cube)
+[2016.04.03-22.02.12:747][615]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_199.Cube)
+[2016.04.03-22.02.12:748][615]PIE: Info Play in editor start time for /Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel 0.802
+[2016.04.03-22.03.40:364][350]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000024728337880
+[2016.04.03-22.03.45:081][526]LogSavePackage: Save=193.889893ms
+[2016.04.03-22.03.45:081][526]LogSavePackage: Moving 'E:/Star_Traders/Star_Traders/Saved/PlayerCamera20B3DD184C37E7EADBC1EC85CE0B418C.tmp' to 'E:/Star_Traders/Star_Traders/Content/Star_Traders_Resorces/Blueprints/Player/CameraSystem/PlayerCamera.uasset'
+[2016.04.03-22.03.45:083][526]LogSavePackage: Total save time: 209.797807ms
+[2016.04.03-22.03.45:083][526]LogSavePackage:Display: Finished SavePackage E:/Star_Traders/Star_Traders/Content/Star_Traders_Resorces/Blueprints/Player/CameraSystem/PlayerCamera.uasset
+[2016.04.03-22.03.45:631][563]BlueprintLog: New page: Compile PlayerCamera
+[2016.04.03-22.03.45:934][563]BlueprintEditorCompileResults: Info [0206.64] Compile of PlayerCamera successful! [in 301 ms]
+[2016.04.03-22.03.46:789][596]LogSavePackage: Save=237.818939ms
+[2016.04.03-22.03.46:789][596]LogSavePackage: Moving 'E:/Star_Traders/Star_Traders/Saved/PlayerCamera2A55DE034E45F6E27B1035938602B6AD.tmp' to 'E:/Star_Traders/Star_Traders/Content/Star_Traders_Resorces/Blueprints/Player/CameraSystem/PlayerCamera.uasset'
+[2016.04.03-22.03.46:791][596]LogSavePackage: Total save time: 278.711978ms
+[2016.04.03-22.03.46:791][596]LogSavePackage:Display: Finished SavePackage E:/Star_Traders/Star_Traders/Content/Star_Traders_Resorces/Blueprints/Player/CameraSystem/PlayerCamera.uasset
+[2016.04.03-22.03.50:621][798]LogSavePackage: Save=132.186584ms
+[2016.04.03-22.03.50:621][798]LogSavePackage: Moving 'E:/Star_Traders/Star_Traders/Saved/Star_Traders_GameMode7F541C3C49747885859B28B7E9FAE47D.tmp' to 'E:/Star_Traders/Star_Traders/Content/Star_Traders_Resorces/Blueprints/Star_Traders_GameMode.uasset'
+[2016.04.03-22.03.50:623][798]LogSavePackage: Total save time: 161.969792ms
+[2016.04.03-22.03.50:623][798]LogSavePackage:Display: Finished SavePackage E:/Star_Traders/Star_Traders/Content/Star_Traders_Resorces/Blueprints/Star_Traders_GameMode.uasset
+[2016.04.03-22.03.51:566][849]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2016.04.03-22.05.32:257][558]LogRenderer: Reallocating scene render targets to support 904x648 (Frame:11795).
+[2016.04.03-22.07.50:512][965]BlueprintLog: New page: Compile PlayerCamera
+[2016.04.03-22.07.51:560][965]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000024713C6B240
+[2016.04.03-22.07.51:567][965]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000024723405B20
+[2016.04.03-22.07.51:603][965]BlueprintEditorCompileResults: Info [0452.31] Compile of PlayerCamera successful! [in 1,091 ms]
+[2016.04.03-22.07.53:132][982]LogSavePackage: Save=721.267883ms
+[2016.04.03-22.07.53:132][982]LogSavePackage: Moving 'E:/Star_Traders/Star_Traders/Saved/PlayerCamera36D510614420D75DA54287BB4B418CCA.tmp' to 'E:/Star_Traders/Star_Traders/Content/Star_Traders_Resorces/Blueprints/Player/CameraSystem/PlayerCamera.uasset'
+[2016.04.03-22.07.53:138][982]LogSavePackage: Total save time: 852.629293ms
+[2016.04.03-22.07.53:138][982]LogSavePackage:Display: Finished SavePackage E:/Star_Traders/Star_Traders/Content/Star_Traders_Resorces/Blueprints/Player/CameraSystem/PlayerCamera.uasset
+[2016.04.03-22.09.50:641][589]BlueprintLog: New page: Compile PlayerCamera
+[2016.04.03-22.09.51:637][589]BlueprintEditorCompileResults: Info [0572.35] Compile of PlayerCamera successful! [in 995 ms]
+[2016.04.03-22.12.48:866][900]BlueprintLog: New page: Compile PlayerCamera
+[2016.04.03-22.12.49:739][900]BlueprintEditorCompileResults: Info [0750.45] Compile of PlayerCamera successful! [in 872 ms]
+[2016.04.03-22.13.09:164][684]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Star_Traders_Resorces/Levels/DemoLevel' took 0.060
+[2016.04.03-22.13.09:218][684]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Star_Traders_Resorces/Blueprints/Player/CameraSystem/PlayerCamera] ([1] browsable assets)...
+[2016.04.03-22.13.09:218][684]OBJ SavePackage: Finished generating thumbnails for package [/Game/Star_Traders_Resorces/Blueprints/Player/CameraSystem/PlayerCamera]
+[2016.04.03-22.13.09:496][684]LogSavePackage: Save=242.554199ms
+[2016.04.03-22.13.09:496][684]LogSavePackage: Moving 'E:/Star_Traders/Star_Traders/Saved/PlayerCamera_Auto1C84F02144C63AFB1E559478FFA6BC7EA.tmp' to 'E:/Star_Traders/Star_Traders/Saved/Autosaves/Game/Star_Traders_Resorces/Blueprints/Player/CameraSystem/PlayerCamera_Auto1.uasset'
+[2016.04.03-22.13.09:499][684]LogSavePackage: Total save time: 279.072441ms
+[2016.04.03-22.13.09:499][684]LogSavePackage:Display: Finished SavePackage E:/Star_Traders/Star_Traders/Saved/Autosaves/Game/Star_Traders_Resorces/Blueprints/Player/CameraSystem/PlayerCamera_Auto1.uasset
+[2016.04.03-22.13.09:499][684]LogFileHelpers: Auto-saving content packages took 0.334
+[2016.04.03-22.16.51:252][815]BlueprintLog: New page: Compile PlayerCamera
+[2016.04.03-22.16.52:479][815]BlueprintEditorCompileResults: Info [0993.19] Compile of PlayerCamera successful! [in 1,226 ms]
+[2016.04.03-22.16.53:878][829]LogSavePackage: Save=669.295410ms
+[2016.04.03-22.16.53:878][829]LogSavePackage: Moving 'E:/Star_Traders/Star_Traders/Saved/PlayerCameraA1EEEB894A6A7FD11A9525A07CB4C2FB.tmp' to 'E:/Star_Traders/Star_Traders/Content/Star_Traders_Resorces/Blueprints/Player/CameraSystem/PlayerCamera.uasset'
+[2016.04.03-22.16.53:886][829]LogSavePackage: Total save time: 776.193064ms
+[2016.04.03-22.16.53:886][829]LogSavePackage:Display: Finished SavePackage E:/Star_Traders/Star_Traders/Content/Star_Traders_Resorces/Blueprints/Player/CameraSystem/PlayerCamera.uasset
+[2016.04.03-22.19.30:291][353]LogPrimitiveComponent: Zero scaling not supported (/Engine/Transient.World_7:PersistentLevel.HexTile_C_200.Cube)
+[2016.04.03-22.19.58:052][161]LogPrimitiveComponent: Zero scaling not supported (/Engine/Transient.World_7:PersistentLevel.HexTile_C_200.Cube)
+[2016.04.03-22.19.58:058][161]LogPrimitiveComponent: Zero scaling not supported (/Engine/Transient.World_7:PersistentLevel.HexTile_C_200.Cube)
+[2016.04.03-22.19.58:060][161]LogPrimitiveComponent: Zero scaling not supported (/Engine/Transient.World_7:PersistentLevel.HexTile_C_200.Cube)
+[2016.04.03-22.20.08:130][446]LogPrimitiveComponent: Zero scaling not supported (/Engine/Transient.World_7:PersistentLevel.HexTile_C_200.Cube)
+[2016.04.03-22.20.08:138][446]LogPrimitiveComponent: Zero scaling not supported (/Engine/Transient.World_7:PersistentLevel.HexTile_C_200.Cube)
+[2016.04.03-22.20.08:141][446]LogPrimitiveComponent: Zero scaling not supported (/Engine/Transient.World_7:PersistentLevel.HexTile_C_200.Cube)
+[2016.04.03-22.20.29:909][281]LogPrimitiveComponent: Zero scaling not supported (/Engine/Transient.World_7:PersistentLevel.HexTile_C_200.Cube)
+[2016.04.03-22.20.29:914][281]LogPrimitiveComponent: Zero scaling not supported (/Engine/Transient.World_7:PersistentLevel.HexTile_C_200.Cube)
+[2016.04.03-22.20.29:916][281]LogPrimitiveComponent: Zero scaling not supported (/Engine/Transient.World_7:PersistentLevel.HexTile_C_200.Cube)
+[2016.04.03-22.20.35:743][474]LogPrimitiveComponent: Zero scaling not supported (/Engine/Transient.World_7:PersistentLevel.HexTile_C_200.Cube)
+[2016.04.03-22.20.35:751][474]LogPrimitiveComponent: Zero scaling not supported (/Engine/Transient.World_7:PersistentLevel.HexTile_C_200.Cube)
+[2016.04.03-22.20.35:754][474]LogPrimitiveComponent: Zero scaling not supported (/Engine/Transient.World_7:PersistentLevel.HexTile_C_200.Cube)
+[2016.04.03-22.21.41:654][734]BlueprintLog: New page: Compile HexTile
+[2016.04.03-22.21.42:516][734]LogPrimitiveComponent: Zero scaling not supported (/Engine/Transient.World_7:PersistentLevel.HexTile_C_0.Cube)
+[2016.04.03-22.21.42:518][734]LogPrimitiveComponent: Zero scaling not supported (/Engine/Transient.World_7:PersistentLevel.HexTile_C_0.Cube)
+[2016.04.03-22.21.42:660][734]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000002471EF39940
+[2016.04.03-22.21.42:671][734]LogPrimitiveComponent: Zero scaling not supported (/Engine/Transient.World_7:PersistentLevel.HexTile_C_0.Cube)
+[2016.04.03-22.21.42:674][734]LogPrimitiveComponent: Zero scaling not supported (/Engine/Transient.World_7:PersistentLevel.HexTile_C_0.Cube)
+[2016.04.03-22.21.42:676][734]LogPrimitiveComponent: Zero scaling not supported (/Engine/Transient.World_7:PersistentLevel.HexTile_C_0.Cube)
+[2016.04.03-22.21.42:688][734]BlueprintEditorCompileResults: Info [1283.40] Compile of HexTile successful! [in 1,033 ms]
+[2016.04.03-22.21.43:368][755]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Star_Traders_Resorces/Blueprints/World/HexTile" FILE="E:/Star_Traders/Star_Traders/Content/Star_Traders_Resorces/Blueprints/World/HexTile.uasset" SILENT=true
+[2016.04.03-22.21.43:682][755]LogSavePackage: Save=213.606873ms
+[2016.04.03-22.21.43:682][755]LogSavePackage: Moving 'E:/Star_Traders/Star_Traders/Saved/HexTileC8BBF74D4673966B4C9876B9FB504F6C.tmp' to 'E:/Star_Traders/Star_Traders/Content/Star_Traders_Resorces/Blueprints/World/HexTile.uasset'
+[2016.04.03-22.21.43:691][755]LogSavePackage: Total save time: 318.595484ms
+[2016.04.03-22.21.43:691][755]LogSavePackage:Display: Finished SavePackage E:/Star_Traders/Star_Traders/Content/Star_Traders_Resorces/Blueprints/World/HexTile.uasset
+[2016.04.03-22.21.45:708][818]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.04.03-22.21.45:708][818]PIE: New page: PIE session: DemoLevel (Apr 3, 2016, 10:21:45 AM)
+[2016.04.03-22.21.45:708][818]LogPlayLevel: Creating play world package: /Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel
+[2016.04.03-22.21.45:713][818]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004265s)
+[2016.04.03-22.21.45:715][818]LogAIModule: Creating AISystem for world DemoLevel
+[2016.04.03-22.21.45:716][818]LogPlayLevel: PIE: World Init took: (0.002910s)
+[2016.04.03-22.21.45:717][818]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Star_Traders_Resorces/Levels/DemoLevel.DemoLevel to /Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel (0.008233s)
+[2016.04.03-22.21.45:894][818]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.04.03-22.21.45:932][818]LogInit: FAudioDevice initialized.
+[2016.04.03-22.21.46:002][818]LogWorld: Game class is 'Star_Traders_GameMode_C'
+[2016.04.03-22.21.46:011][818]LogWorld: Bringing World /Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel up for play (max tick rate 0) at 2016.04.03-16.21.46
+[2016.04.03-22.21.46:011][818]LogActor:Warning: GameSession /Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.GameSession_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.04.03-22.21.46:012][818]LogActor:Warning: GameNetworkManager /Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.GameNetworkManager_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.04.03-22.21.46:012][818]LogWorld: Bringing up level for play took: 0.008261
+[2016.04.03-22.21.46:020][818]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_12.Cube)
+[2016.04.03-22.21.46:022][818]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_13.Cube)
+[2016.04.03-22.21.46:024][818]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_14.Cube)
+[2016.04.03-22.21.46:026][818]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_15.Cube)
+[2016.04.03-22.21.46:028][818]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_16.Cube)
+[2016.04.03-22.21.46:029][818]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_17.Cube)
+[2016.04.03-22.21.46:031][818]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_18.Cube)
+[2016.04.03-22.21.46:033][818]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_19.Cube)
+[2016.04.03-22.21.46:036][818]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_20.Cube)
+[2016.04.03-22.21.46:038][818]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_21.Cube)
+[2016.04.03-22.21.46:040][818]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_22.Cube)
+[2016.04.03-22.21.46:042][818]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_23.Cube)
+[2016.04.03-22.21.46:045][818]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_24.Cube)
+[2016.04.03-22.21.46:047][818]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_25.Cube)
+[2016.04.03-22.21.46:048][818]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_26.Cube)
+[2016.04.03-22.21.46:049][818]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_27.Cube)
+[2016.04.03-22.21.46:051][818]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_28.Cube)
+[2016.04.03-22.21.46:053][818]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_29.Cube)
+[2016.04.03-22.21.46:055][818]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_30.Cube)
+[2016.04.03-22.21.46:058][818]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_31.Cube)
+[2016.04.03-22.21.46:061][818]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_32.Cube)
+[2016.04.03-22.21.46:063][818]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_33.Cube)
+[2016.04.03-22.21.46:066][818]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_34.Cube)
+[2016.04.03-22.21.46:069][818]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_35.Cube)
+[2016.04.03-22.21.46:071][818]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_36.Cube)
+[2016.04.03-22.21.46:073][818]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_37.Cube)
+[2016.04.03-22.21.46:076][818]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_38.Cube)
+[2016.04.03-22.21.46:077][818]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_39.Cube)
+[2016.04.03-22.21.46:079][818]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_40.Cube)
+[2016.04.03-22.21.46:081][818]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_41.Cube)
+[2016.04.03-22.21.46:083][818]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_42.Cube)
+[2016.04.03-22.21.46:085][818]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_43.Cube)
+[2016.04.03-22.21.46:087][818]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_44.Cube)
+[2016.04.03-22.21.46:088][818]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_45.Cube)
+[2016.04.03-22.21.46:089][818]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_46.Cube)
+[2016.04.03-22.21.46:091][818]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_47.Cube)
+[2016.04.03-22.21.46:093][818]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_48.Cube)
+[2016.04.03-22.21.46:095][818]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_49.Cube)
+[2016.04.03-22.21.46:097][818]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_50.Cube)
+[2016.04.03-22.21.46:099][818]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_51.Cube)
+[2016.04.03-22.21.46:101][818]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_52.Cube)
+[2016.04.03-22.21.46:104][818]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_53.Cube)
+[2016.04.03-22.21.46:107][818]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_54.Cube)
+[2016.04.03-22.21.46:109][818]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_55.Cube)
+[2016.04.03-22.21.46:110][818]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_56.Cube)
+[2016.04.03-22.21.46:112][818]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_57.Cube)
+[2016.04.03-22.21.46:114][818]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_58.Cube)
+[2016.04.03-22.21.46:116][818]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_59.Cube)
+[2016.04.03-22.21.46:118][818]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_60.Cube)
+[2016.04.03-22.21.46:121][818]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_61.Cube)
+[2016.04.03-22.21.46:122][818]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_62.Cube)
+[2016.04.03-22.21.46:124][818]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_63.Cube)
+[2016.04.03-22.21.46:126][818]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_64.Cube)
+[2016.04.03-22.21.46:128][818]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_65.Cube)
+[2016.04.03-22.21.46:130][818]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_66.Cube)
+[2016.04.03-22.21.46:131][818]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_67.Cube)
+[2016.04.03-22.21.46:134][818]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_68.Cube)
+[2016.04.03-22.21.46:136][818]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_69.Cube)
+[2016.04.03-22.21.46:139][818]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_70.Cube)
+[2016.04.03-22.21.46:140][818]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_71.Cube)
+[2016.04.03-22.21.46:142][818]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_72.Cube)
+[2016.04.03-22.21.46:143][818]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_73.Cube)
+[2016.04.03-22.21.46:145][818]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_74.Cube)
+[2016.04.03-22.21.46:146][818]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_75.Cube)
+[2016.04.03-22.21.46:148][818]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_76.Cube)
+[2016.04.03-22.21.46:149][818]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_77.Cube)
+[2016.04.03-22.21.46:150][818]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_78.Cube)
+[2016.04.03-22.21.46:152][818]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_79.Cube)
+[2016.04.03-22.21.46:153][818]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_80.Cube)
+[2016.04.03-22.21.46:156][818]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_81.Cube)
+[2016.04.03-22.21.46:157][818]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_82.Cube)
+[2016.04.03-22.21.46:158][818]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_83.Cube)
+[2016.04.03-22.21.46:160][818]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_84.Cube)
+[2016.04.03-22.21.46:162][818]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_85.Cube)
+[2016.04.03-22.21.46:163][818]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_86.Cube)
+[2016.04.03-22.21.46:165][818]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_87.Cube)
+[2016.04.03-22.21.46:168][818]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_88.Cube)
+[2016.04.03-22.21.46:170][818]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_89.Cube)
+[2016.04.03-22.21.46:172][818]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_90.Cube)
+[2016.04.03-22.21.46:174][818]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_91.Cube)
+[2016.04.03-22.21.46:176][818]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_92.Cube)
+[2016.04.03-22.21.46:178][818]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_93.Cube)
+[2016.04.03-22.21.46:179][818]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_94.Cube)
+[2016.04.03-22.21.46:181][818]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_95.Cube)
+[2016.04.03-22.21.46:182][818]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_96.Cube)
+[2016.04.03-22.21.46:183][818]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_97.Cube)
+[2016.04.03-22.21.46:185][818]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_98.Cube)
+[2016.04.03-22.21.46:187][818]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_99.Cube)
+[2016.04.03-22.21.46:188][818]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_100.Cube)
+[2016.04.03-22.21.46:189][818]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_101.Cube)
+[2016.04.03-22.21.46:190][818]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_102.Cube)
+[2016.04.03-22.21.46:191][818]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_103.Cube)
+[2016.04.03-22.21.46:193][818]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_104.Cube)
+[2016.04.03-22.21.46:195][818]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_105.Cube)
+[2016.04.03-22.21.46:197][818]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_106.Cube)
+[2016.04.03-22.21.46:199][818]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_107.Cube)
+[2016.04.03-22.21.46:200][818]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_108.Cube)
+[2016.04.03-22.21.46:202][818]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_109.Cube)
+[2016.04.03-22.21.46:204][818]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_110.Cube)
+[2016.04.03-22.21.46:205][818]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_111.Cube)
+[2016.04.03-22.21.46:206][818]PIE: Info Play in editor start time for /Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel 0.261
+[2016.04.03-22.22.06:228][433]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000024746885120
+[2016.04.03-22.22.23:210][ 33]BlueprintLog: New page: Compile HexTile
+[2016.04.03-22.22.23:609][ 33]LogPrimitiveComponent: Zero scaling not supported (/Engine/Transient.World_7:PersistentLevel.HexTile_C_0.Cube)
+[2016.04.03-22.22.23:611][ 33]LogPrimitiveComponent: Zero scaling not supported (/Engine/Transient.World_7:PersistentLevel.HexTile_C_0.Cube)
+[2016.04.03-22.22.23:613][ 33]LogPrimitiveComponent: Zero scaling not supported (/Engine/Transient.World_7:PersistentLevel.HexTile_C_0.Cube)
+[2016.04.03-22.22.23:781][ 33]LogPrimitiveComponent: Zero scaling not supported (/Engine/Transient.World_7:PersistentLevel.HexTile_C_0.Cube)
+[2016.04.03-22.22.23:783][ 33]LogPrimitiveComponent: Zero scaling not supported (/Engine/Transient.World_7:PersistentLevel.HexTile_C_0.Cube)
+[2016.04.03-22.22.23:784][ 33]LogPrimitiveComponent: Zero scaling not supported (/Engine/Transient.World_7:PersistentLevel.HexTile_C_0.Cube)
+[2016.04.03-22.22.23:791][ 33]BlueprintEditorCompileResults: Info [1324.50] Compile of HexTile successful! [in 580 ms]
+[2016.04.03-22.22.24:603][ 63]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Star_Traders_Resorces/Blueprints/World/HexTile" FILE="E:/Star_Traders/Star_Traders/Content/Star_Traders_Resorces/Blueprints/World/HexTile.uasset" SILENT=true
+[2016.04.03-22.22.24:896][ 63]LogSavePackage: Save=206.817230ms
+[2016.04.03-22.22.24:896][ 63]LogSavePackage: Moving 'E:/Star_Traders/Star_Traders/Saved/HexTileF9A2E81A4ADA4186923D3EBAB505364C.tmp' to 'E:/Star_Traders/Star_Traders/Content/Star_Traders_Resorces/Blueprints/World/HexTile.uasset'
+[2016.04.03-22.22.24:904][ 63]LogSavePackage: Total save time: 295.555942ms
+[2016.04.03-22.22.24:904][ 63]LogSavePackage:Display: Finished SavePackage E:/Star_Traders/Star_Traders/Content/Star_Traders_Resorces/Blueprints/World/HexTile.uasset
+[2016.04.03-22.22.26:944][129]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.04.03-22.22.26:945][129]PIE: New page: PIE session: DemoLevel (Apr 3, 2016, 10:22:26 AM)
+[2016.04.03-22.22.26:945][129]LogPlayLevel: Creating play world package: /Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel
+[2016.04.03-22.22.26:952][129]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006702s)
+[2016.04.03-22.22.26:956][129]LogAIModule: Creating AISystem for world DemoLevel
+[2016.04.03-22.22.26:956][129]LogPlayLevel: PIE: World Init took: (0.004259s)
+[2016.04.03-22.22.26:957][129]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Star_Traders_Resorces/Levels/DemoLevel.DemoLevel to /Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel (0.011818s)
+[2016.04.03-22.22.27:154][129]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.04.03-22.22.27:187][129]LogInit: FAudioDevice initialized.
+[2016.04.03-22.22.27:257][129]LogWorld: Game class is 'Star_Traders_GameMode_C'
+[2016.04.03-22.22.27:263][129]LogWorld: Bringing World /Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel up for play (max tick rate 0) at 2016.04.03-16.22.27
+[2016.04.03-22.22.27:263][129]LogActor:Warning: GameSession /Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.GameSession_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.04.03-22.22.27:264][129]LogActor:Warning: GameNetworkManager /Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.GameNetworkManager_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.04.03-22.22.27:264][129]LogWorld: Bringing up level for play took: 0.005641
+[2016.04.03-22.22.27:270][129]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_22.Cube)
+[2016.04.03-22.22.27:272][129]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_23.Cube)
+[2016.04.03-22.22.27:273][129]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_24.Cube)
+[2016.04.03-22.22.27:276][129]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_25.Cube)
+[2016.04.03-22.22.27:280][129]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_26.Cube)
+[2016.04.03-22.22.27:282][129]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_27.Cube)
+[2016.04.03-22.22.27:284][129]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_28.Cube)
+[2016.04.03-22.22.27:287][129]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_29.Cube)
+[2016.04.03-22.22.27:289][129]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_30.Cube)
+[2016.04.03-22.22.27:291][129]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_31.Cube)
+[2016.04.03-22.22.27:292][129]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_32.Cube)
+[2016.04.03-22.22.27:294][129]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_33.Cube)
+[2016.04.03-22.22.27:296][129]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_34.Cube)
+[2016.04.03-22.22.27:297][129]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_35.Cube)
+[2016.04.03-22.22.27:299][129]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_36.Cube)
+[2016.04.03-22.22.27:300][129]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_37.Cube)
+[2016.04.03-22.22.27:302][129]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_38.Cube)
+[2016.04.03-22.22.27:304][129]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_39.Cube)
+[2016.04.03-22.22.27:307][129]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_40.Cube)
+[2016.04.03-22.22.27:310][129]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_41.Cube)
+[2016.04.03-22.22.27:312][129]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_42.Cube)
+[2016.04.03-22.22.27:313][129]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_43.Cube)
+[2016.04.03-22.22.27:315][129]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_44.Cube)
+[2016.04.03-22.22.27:316][129]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_45.Cube)
+[2016.04.03-22.22.27:318][129]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_46.Cube)
+[2016.04.03-22.22.27:319][129]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_47.Cube)
+[2016.04.03-22.22.27:320][129]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_48.Cube)
+[2016.04.03-22.22.27:321][129]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_49.Cube)
+[2016.04.03-22.22.27:322][129]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_50.Cube)
+[2016.04.03-22.22.27:324][129]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_51.Cube)
+[2016.04.03-22.22.27:325][129]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_52.Cube)
+[2016.04.03-22.22.27:326][129]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_53.Cube)
+[2016.04.03-22.22.27:327][129]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_54.Cube)
+[2016.04.03-22.22.27:329][129]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_55.Cube)
+[2016.04.03-22.22.27:330][129]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_56.Cube)
+[2016.04.03-22.22.27:331][129]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_57.Cube)
+[2016.04.03-22.22.27:332][129]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_58.Cube)
+[2016.04.03-22.22.27:334][129]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_59.Cube)
+[2016.04.03-22.22.27:335][129]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_60.Cube)
+[2016.04.03-22.22.27:336][129]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_61.Cube)
+[2016.04.03-22.22.27:338][129]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_62.Cube)
+[2016.04.03-22.22.27:339][129]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_63.Cube)
+[2016.04.03-22.22.27:340][129]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_64.Cube)
+[2016.04.03-22.22.27:342][129]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_65.Cube)
+[2016.04.03-22.22.27:345][129]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_66.Cube)
+[2016.04.03-22.22.27:347][129]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_67.Cube)
+[2016.04.03-22.22.27:348][129]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_68.Cube)
+[2016.04.03-22.22.27:350][129]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_69.Cube)
+[2016.04.03-22.22.27:352][129]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_70.Cube)
+[2016.04.03-22.22.27:353][129]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_71.Cube)
+[2016.04.03-22.22.27:355][129]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_72.Cube)
+[2016.04.03-22.22.27:356][129]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_73.Cube)
+[2016.04.03-22.22.27:357][129]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_74.Cube)
+[2016.04.03-22.22.27:359][129]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_75.Cube)
+[2016.04.03-22.22.27:360][129]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_76.Cube)
+[2016.04.03-22.22.27:361][129]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_77.Cube)
+[2016.04.03-22.22.27:362][129]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_78.Cube)
+[2016.04.03-22.22.27:363][129]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_79.Cube)
+[2016.04.03-22.22.27:365][129]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_80.Cube)
+[2016.04.03-22.22.27:366][129]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_81.Cube)
+[2016.04.03-22.22.27:368][129]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_82.Cube)
+[2016.04.03-22.22.27:369][129]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_83.Cube)
+[2016.04.03-22.22.27:370][129]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_84.Cube)
+[2016.04.03-22.22.27:372][129]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_85.Cube)
+[2016.04.03-22.22.27:373][129]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_86.Cube)
+[2016.04.03-22.22.27:375][129]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_87.Cube)
+[2016.04.03-22.22.27:377][129]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_88.Cube)
+[2016.04.03-22.22.27:378][129]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_89.Cube)
+[2016.04.03-22.22.27:380][129]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_90.Cube)
+[2016.04.03-22.22.27:381][129]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_91.Cube)
+[2016.04.03-22.22.27:382][129]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_92.Cube)
+[2016.04.03-22.22.27:383][129]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_93.Cube)
+[2016.04.03-22.22.27:386][129]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_94.Cube)
+[2016.04.03-22.22.27:387][129]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_95.Cube)
+[2016.04.03-22.22.27:389][129]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_96.Cube)
+[2016.04.03-22.22.27:390][129]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_97.Cube)
+[2016.04.03-22.22.27:391][129]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_98.Cube)
+[2016.04.03-22.22.27:393][129]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_99.Cube)
+[2016.04.03-22.22.27:394][129]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_100.Cube)
+[2016.04.03-22.22.27:395][129]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_101.Cube)
+[2016.04.03-22.22.27:397][129]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_102.Cube)
+[2016.04.03-22.22.27:398][129]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_103.Cube)
+[2016.04.03-22.22.27:399][129]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_104.Cube)
+[2016.04.03-22.22.27:400][129]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_105.Cube)
+[2016.04.03-22.22.27:401][129]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_106.Cube)
+[2016.04.03-22.22.27:403][129]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_107.Cube)
+[2016.04.03-22.22.27:405][129]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_108.Cube)
+[2016.04.03-22.22.27:407][129]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_109.Cube)
+[2016.04.03-22.22.27:409][129]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_110.Cube)
+[2016.04.03-22.22.27:411][129]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_111.Cube)
+[2016.04.03-22.22.27:412][129]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_112.Cube)
+[2016.04.03-22.22.27:413][129]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_113.Cube)
+[2016.04.03-22.22.27:414][129]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_114.Cube)
+[2016.04.03-22.22.27:415][129]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_115.Cube)
+[2016.04.03-22.22.27:416][129]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_116.Cube)
+[2016.04.03-22.22.27:417][129]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_117.Cube)
+[2016.04.03-22.22.27:418][129]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_118.Cube)
+[2016.04.03-22.22.27:419][129]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_119.Cube)
+[2016.04.03-22.22.27:420][129]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_120.Cube)
+[2016.04.03-22.22.27:421][129]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_121.Cube)
+[2016.04.03-22.22.27:422][129]PIE: Info Play in editor start time for /Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel 1.477
+[2016.04.03-22.23.17:623][737]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000002473E58B380
+[2016.04.03-22.23.56:930][395]BlueprintLog: New page: Compile HexTile
+[2016.04.03-22.23.57:509][395]LogPrimitiveComponent: Zero scaling not supported (/Engine/Transient.World_7:PersistentLevel.HexTile_C_0.Cube)
+[2016.04.03-22.23.57:511][395]LogPrimitiveComponent: Zero scaling not supported (/Engine/Transient.World_7:PersistentLevel.HexTile_C_0.Cube)
+[2016.04.03-22.23.57:512][395]LogPrimitiveComponent: Zero scaling not supported (/Engine/Transient.World_7:PersistentLevel.HexTile_C_0.Cube)
+[2016.04.03-22.23.57:622][395]LogPrimitiveComponent: Zero scaling not supported (/Engine/Transient.World_7:PersistentLevel.HexTile_C_0.Cube)
+[2016.04.03-22.23.57:624][395]LogPrimitiveComponent: Zero scaling not supported (/Engine/Transient.World_7:PersistentLevel.HexTile_C_0.Cube)
+[2016.04.03-22.23.57:625][395]LogPrimitiveComponent: Zero scaling not supported (/Engine/Transient.World_7:PersistentLevel.HexTile_C_0.Cube)
+[2016.04.03-22.23.57:629][395]BlueprintEditorCompileResults: Info [1418.34] Compile of HexTile successful! [in 698 ms]
+[2016.04.03-22.23.58:189][419]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Star_Traders_Resorces/Blueprints/World/HexTile" FILE="E:/Star_Traders/Star_Traders/Content/Star_Traders_Resorces/Blueprints/World/HexTile.uasset" SILENT=true
+[2016.04.03-22.23.58:473][419]LogSavePackage: Save=201.539642ms
+[2016.04.03-22.23.58:473][419]LogSavePackage: Moving 'E:/Star_Traders/Star_Traders/Saved/HexTile8C895E2745BEA1E53DB74B8A7FC13E9C.tmp' to 'E:/Star_Traders/Star_Traders/Content/Star_Traders_Resorces/Blueprints/World/HexTile.uasset'
+[2016.04.03-22.23.58:480][419]LogSavePackage: Total save time: 287.135605ms
+[2016.04.03-22.23.58:480][419]LogSavePackage:Display: Finished SavePackage E:/Star_Traders/Star_Traders/Content/Star_Traders_Resorces/Blueprints/World/HexTile.uasset
+[2016.04.03-22.24.07:514][831]LogPrimitiveComponent: Zero scaling not supported (/Engine/Transient.World_7:PersistentLevel.HexTile_C_0.Cube)
+[2016.04.03-22.24.07:518][831]LogPrimitiveComponent: Zero scaling not supported (/Engine/Transient.World_7:PersistentLevel.HexTile_C_0.Cube)
+[2016.04.03-22.24.07:520][831]LogPrimitiveComponent: Zero scaling not supported (/Engine/Transient.World_7:PersistentLevel.HexTile_C_0.Cube)
+[2016.04.03-22.24.21:330][302]LogPrimitiveComponent: Zero scaling not supported (/Engine/Transient.World_7:PersistentLevel.HexTile_C_0.Cube)
+[2016.04.03-22.24.21:336][302]LogPrimitiveComponent: Zero scaling not supported (/Engine/Transient.World_7:PersistentLevel.HexTile_C_0.Cube)
+[2016.04.03-22.24.21:338][302]LogPrimitiveComponent: Zero scaling not supported (/Engine/Transient.World_7:PersistentLevel.HexTile_C_0.Cube)
+[2016.04.03-22.24.28:918][605]BlueprintLog: New page: Compile HexTile
+[2016.04.03-22.24.29:322][605]LogPrimitiveComponent: Zero scaling not supported (/Engine/Transient.World_7:PersistentLevel.HexTile_C_0.Cube)
+[2016.04.03-22.24.29:323][605]LogPrimitiveComponent: Zero scaling not supported (/Engine/Transient.World_7:PersistentLevel.HexTile_C_0.Cube)
+[2016.04.03-22.24.29:324][605]LogPrimitiveComponent: Zero scaling not supported (/Engine/Transient.World_7:PersistentLevel.HexTile_C_0.Cube)
+[2016.04.03-22.24.29:466][605]LogPrimitiveComponent: Zero scaling not supported (/Engine/Transient.World_7:PersistentLevel.HexTile_C_0.Cube)
+[2016.04.03-22.24.29:469][605]LogPrimitiveComponent: Zero scaling not supported (/Engine/Transient.World_7:PersistentLevel.HexTile_C_0.Cube)
+[2016.04.03-22.24.29:470][605]LogPrimitiveComponent: Zero scaling not supported (/Engine/Transient.World_7:PersistentLevel.HexTile_C_0.Cube)
+[2016.04.03-22.24.29:478][605]BlueprintEditorCompileResults: Info [1450.19] Compile of HexTile successful! [in 559 ms]
+[2016.04.03-22.24.30:031][627]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Star_Traders_Resorces/Blueprints/World/HexTile" FILE="E:/Star_Traders/Star_Traders/Content/Star_Traders_Resorces/Blueprints/World/HexTile.uasset" SILENT=true
+[2016.04.03-22.24.30:289][627]LogSavePackage: Save=173.761551ms
+[2016.04.03-22.24.30:289][627]LogSavePackage: Moving 'E:/Star_Traders/Star_Traders/Saved/HexTileAE1F2E8F4F913D4524B326ACB65C30B5.tmp' to 'E:/Star_Traders/Star_Traders/Content/Star_Traders_Resorces/Blueprints/World/HexTile.uasset'
+[2016.04.03-22.24.30:295][627]LogSavePackage: Total save time: 260.581773ms
+[2016.04.03-22.24.30:295][627]LogSavePackage:Display: Finished SavePackage E:/Star_Traders/Star_Traders/Content/Star_Traders_Resorces/Blueprints/World/HexTile.uasset
+[2016.04.03-22.24.32:245][688]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.04.03-22.24.32:245][688]PIE: New page: PIE session: DemoLevel (Apr 3, 2016, 10:24:32 AM)
+[2016.04.03-22.24.32:246][688]LogPlayLevel: Creating play world package: /Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel
+[2016.04.03-22.24.32:250][688]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004354s)
+[2016.04.03-22.24.32:252][688]LogAIModule: Creating AISystem for world DemoLevel
+[2016.04.03-22.24.32:253][688]LogPlayLevel: PIE: World Init took: (0.002478s)
+[2016.04.03-22.24.32:254][688]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Star_Traders_Resorces/Levels/DemoLevel.DemoLevel to /Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel (0.007650s)
+[2016.04.03-22.24.32:419][688]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.04.03-22.24.32:450][688]LogInit: FAudioDevice initialized.
+[2016.04.03-22.24.32:511][688]LogWorld: Game class is 'Star_Traders_GameMode_C'
+[2016.04.03-22.24.32:519][688]LogWorld: Bringing World /Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel up for play (max tick rate 0) at 2016.04.03-16.24.32
+[2016.04.03-22.24.32:519][688]LogActor:Warning: GameSession /Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.GameSession_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.04.03-22.24.32:519][688]LogActor:Warning: GameNetworkManager /Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.GameNetworkManager_5 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.04.03-22.24.32:520][688]LogWorld: Bringing up level for play took: 0.006834
+[2016.04.03-22.24.32:528][688]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_22.Cube)
+[2016.04.03-22.24.32:530][688]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_23.Cube)
+[2016.04.03-22.24.32:531][688]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_24.Cube)
+[2016.04.03-22.24.32:533][688]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_25.Cube)
+[2016.04.03-22.24.32:535][688]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_26.Cube)
+[2016.04.03-22.24.32:536][688]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_27.Cube)
+[2016.04.03-22.24.32:538][688]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_28.Cube)
+[2016.04.03-22.24.32:539][688]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_29.Cube)
+[2016.04.03-22.24.32:541][688]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_30.Cube)
+[2016.04.03-22.24.32:542][688]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_31.Cube)
+[2016.04.03-22.24.32:543][688]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_32.Cube)
+[2016.04.03-22.24.32:545][688]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_33.Cube)
+[2016.04.03-22.24.32:547][688]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_34.Cube)
+[2016.04.03-22.24.32:549][688]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_35.Cube)
+[2016.04.03-22.24.32:550][688]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_36.Cube)
+[2016.04.03-22.24.32:552][688]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_37.Cube)
+[2016.04.03-22.24.32:554][688]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_38.Cube)
+[2016.04.03-22.24.32:556][688]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_39.Cube)
+[2016.04.03-22.24.32:558][688]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_40.Cube)
+[2016.04.03-22.24.32:560][688]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_41.Cube)
+[2016.04.03-22.24.32:562][688]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_42.Cube)
+[2016.04.03-22.24.32:563][688]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_43.Cube)
+[2016.04.03-22.24.32:566][688]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_44.Cube)
+[2016.04.03-22.24.32:567][688]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_45.Cube)
+[2016.04.03-22.24.32:569][688]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_46.Cube)
+[2016.04.03-22.24.32:571][688]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_47.Cube)
+[2016.04.03-22.24.32:573][688]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_48.Cube)
+[2016.04.03-22.24.32:575][688]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_49.Cube)
+[2016.04.03-22.24.32:577][688]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_50.Cube)
+[2016.04.03-22.24.32:578][688]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_51.Cube)
+[2016.04.03-22.24.32:580][688]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_52.Cube)
+[2016.04.03-22.24.32:581][688]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_53.Cube)
+[2016.04.03-22.24.32:584][688]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_54.Cube)
+[2016.04.03-22.24.32:586][688]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_55.Cube)
+[2016.04.03-22.24.32:587][688]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_56.Cube)
+[2016.04.03-22.24.32:589][688]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_57.Cube)
+[2016.04.03-22.24.32:591][688]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_58.Cube)
+[2016.04.03-22.24.32:593][688]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_59.Cube)
+[2016.04.03-22.24.32:595][688]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_60.Cube)
+[2016.04.03-22.24.32:597][688]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_61.Cube)
+[2016.04.03-22.24.32:598][688]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_62.Cube)
+[2016.04.03-22.24.32:600][688]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_63.Cube)
+[2016.04.03-22.24.32:601][688]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_64.Cube)
+[2016.04.03-22.24.32:602][688]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_65.Cube)
+[2016.04.03-22.24.32:604][688]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_66.Cube)
+[2016.04.03-22.24.32:605][688]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_67.Cube)
+[2016.04.03-22.24.32:607][688]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_68.Cube)
+[2016.04.03-22.24.32:608][688]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_69.Cube)
+[2016.04.03-22.24.32:609][688]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_70.Cube)
+[2016.04.03-22.24.32:610][688]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_71.Cube)
+[2016.04.03-22.24.32:612][688]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_72.Cube)
+[2016.04.03-22.24.32:613][688]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_73.Cube)
+[2016.04.03-22.24.32:615][688]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_74.Cube)
+[2016.04.03-22.24.32:617][688]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_75.Cube)
+[2016.04.03-22.24.32:619][688]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_76.Cube)
+[2016.04.03-22.24.32:621][688]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_77.Cube)
+[2016.04.03-22.24.32:622][688]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_78.Cube)
+[2016.04.03-22.24.32:625][688]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_79.Cube)
+[2016.04.03-22.24.32:626][688]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_80.Cube)
+[2016.04.03-22.24.32:627][688]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_81.Cube)
+[2016.04.03-22.24.32:629][688]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_82.Cube)
+[2016.04.03-22.24.32:630][688]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_83.Cube)
+[2016.04.03-22.24.32:631][688]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_84.Cube)
+[2016.04.03-22.24.32:632][688]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_85.Cube)
+[2016.04.03-22.24.32:633][688]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_86.Cube)
+[2016.04.03-22.24.32:635][688]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_87.Cube)
+[2016.04.03-22.24.32:636][688]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_88.Cube)
+[2016.04.03-22.24.32:637][688]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_89.Cube)
+[2016.04.03-22.24.32:638][688]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_90.Cube)
+[2016.04.03-22.24.32:639][688]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_91.Cube)
+[2016.04.03-22.24.32:640][688]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_92.Cube)
+[2016.04.03-22.24.32:641][688]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_93.Cube)
+[2016.04.03-22.24.32:642][688]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_94.Cube)
+[2016.04.03-22.24.32:643][688]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_95.Cube)
+[2016.04.03-22.24.32:645][688]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_96.Cube)
+[2016.04.03-22.24.32:647][688]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_97.Cube)
+[2016.04.03-22.24.32:648][688]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_98.Cube)
+[2016.04.03-22.24.32:650][688]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_99.Cube)
+[2016.04.03-22.24.32:652][688]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_100.Cube)
+[2016.04.03-22.24.32:654][688]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_101.Cube)
+[2016.04.03-22.24.32:655][688]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_102.Cube)
+[2016.04.03-22.24.32:657][688]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_103.Cube)
+[2016.04.03-22.24.32:659][688]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_104.Cube)
+[2016.04.03-22.24.32:660][688]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_105.Cube)
+[2016.04.03-22.24.32:661][688]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_106.Cube)
+[2016.04.03-22.24.32:662][688]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_107.Cube)
+[2016.04.03-22.24.32:663][688]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_108.Cube)
+[2016.04.03-22.24.32:664][688]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_109.Cube)
+[2016.04.03-22.24.32:666][688]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_110.Cube)
+[2016.04.03-22.24.32:667][688]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_111.Cube)
+[2016.04.03-22.24.32:668][688]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_112.Cube)
+[2016.04.03-22.24.32:669][688]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_113.Cube)
+[2016.04.03-22.24.32:670][688]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_114.Cube)
+[2016.04.03-22.24.32:671][688]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_115.Cube)
+[2016.04.03-22.24.32:672][688]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_116.Cube)
+[2016.04.03-22.24.32:673][688]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_117.Cube)
+[2016.04.03-22.24.32:674][688]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_118.Cube)
+[2016.04.03-22.24.32:675][688]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_119.Cube)
+[2016.04.03-22.24.32:676][688]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_120.Cube)
+[2016.04.03-22.24.32:678][688]LogPrimitiveComponent: Zero scaling not supported (/Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.HexTile_C_121.Cube)
+[2016.04.03-22.24.32:678][688]PIE: Info Play in editor start time for /Game/Star_Traders_Resorces/Levels/UEDPIE_0_DemoLevel 0.733
+[2016.04.03-22.24.53:025][372]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000002473E453880
+[2016.04.03-22.33.33:109][453]LogSavePackage: Save=42.612415ms
+[2016.04.03-22.33.33:109][453]LogSavePackage: Moving 'E:/Star_Traders/Star_Traders/Saved/DemoLevel82FE7300420D20E56BC161AA107817E9.tmp' to 'E:/Star_Traders/Star_Traders/Content/Star_Traders_Resorces/Levels/DemoLevel.umap'
+[2016.04.03-22.33.33:120][453]LogSavePackage: Total save time: 84.877919ms
+[2016.04.03-22.33.33:120][453]LogSavePackage:Display: Finished SavePackage E:/Star_Traders/Star_Traders/Content/Star_Traders_Resorces/Levels/DemoLevel.umap
+[2016.04.03-22.33.34:606][500]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Star_Traders_Resorces/Blueprints/World/HexTile" FILE="E:/Star_Traders/Star_Traders/Content/Star_Traders_Resorces/Blueprints/World/HexTile.uasset" SILENT=true
+[2016.04.03-22.33.34:882][500]LogSavePackage: Save=151.506561ms
+[2016.04.03-22.33.34:882][500]LogSavePackage: Moving 'E:/Star_Traders/Star_Traders/Saved/HexTile39F484E142FA906BCDF8449BB3A55B98.tmp' to 'E:/Star_Traders/Star_Traders/Content/Star_Traders_Resorces/Blueprints/World/HexTile.uasset'
+[2016.04.03-22.33.34:886][500]LogSavePackage: Total save time: 273.633912ms
+[2016.04.03-22.33.34:886][500]LogSavePackage:Display: Finished SavePackage E:/Star_Traders/Star_Traders/Content/Star_Traders_Resorces/Blueprints/World/HexTile.uasset
+[2016.04.03-22.33.36:471][538]LogSavePackage: Save=415.714722ms
+[2016.04.03-22.33.36:471][538]LogSavePackage: Moving 'E:/Star_Traders/Star_Traders/Saved/PlayerCamera6665E1D744527914F41A8E9BCA41497D.tmp' to 'E:/Star_Traders/Star_Traders/Content/Star_Traders_Resorces/Blueprints/Player/CameraSystem/PlayerCamera.uasset'
+[2016.04.03-22.33.36:473][538]LogSavePackage: Total save time: 517.960858ms
+[2016.04.03-22.33.36:473][538]LogSavePackage:Display: Finished SavePackage E:/Star_Traders/Star_Traders/Content/Star_Traders_Resorces/Blueprints/Player/CameraSystem/PlayerCamera.uasset
+[2016.04.03-22.33.37:597][563]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2016.04.03-22.33.37:672][563]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2016.04.03-22.33.37:678][563]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2016.04.03-22.33.38:115][564]Cmd: QUIT_EDITOR
+[2016.04.03-22.33.39:114][564]LogExit: Preparing to exit.
+[2016.04.03-22.33.40:103][564]LogExit: Editor shut down
+[2016.04.03-22.33.40:105][564]LogExit: Transaction tracking system shut down
+[2016.04.03-22.33.40:122][564]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000002477521BF60
+[2016.04.03-22.33.40:123][564]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000002470D5EB880
+[2016.04.03-22.33.40:129][564]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000247116E9260
+[2016.04.03-22.33.40:129][564]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000024713C6B740
+[2016.04.03-22.33.40:129][564]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000024773774D60
+[2016.04.03-22.33.40:134][564]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000024724356020
+[2016.04.03-22.33.40:729][564]LogExit: Object subsystem successfully closed.
+[2016.04.03-22.33.40:809][564]LogD3D11RHI: Shutdown
+[2016.04.03-22.33.40:809][564]LogD3D11RHI: CleanupD3DDevice
+[2016.04.03-22.33.41:081][564]LogD3D11RHI: ~FD3D11DynamicRHI
+[2016.04.03-22.33.41:165][564]LogModuleManager: Shutting down and abandoning module CookingStats (202)
+[2016.04.03-22.33.41:165][564]LogModuleManager: Shutting down and abandoning module BlueprintGraph (201)
+[2016.04.03-22.33.41:165][564]LogModuleManager: Shutting down and abandoning module CrashTracker (200)
+[2016.04.03-22.33.41:165][564]LogModuleManager: Shutting down and abandoning module SceneOutliner (199)
+[2016.04.03-22.33.41:166][564]LogModuleManager: Shutting down and abandoning module SuperSearch (198)
+[2016.04.03-22.33.41:166][564]LogModuleManager: Shutting down and abandoning module WidgetCarousel (197)
+[2016.04.03-22.33.41:166][564]LogModuleManager: Shutting down and abandoning module AddContentDialog (196)
+[2016.04.03-22.33.41:188][564]LogModuleManager: Shutting down and abandoning module EditorWidgets (195)
+[2016.04.03-22.33.41:188][564]LogModuleManager: Shutting down and abandoning module CollectionManager (194)
+[2016.04.03-22.33.41:190][564]LogModuleManager: Shutting down and abandoning module StatsViewer (193)
+[2016.04.03-22.33.41:190][564]LogModuleManager: Shutting down and abandoning module FoliageEdit (192)
+[2016.04.03-22.33.41:190][564]LogModuleManager: Shutting down and abandoning module LandscapeEditor (191)
+[2016.04.03-22.33.41:192][564]LogModuleManager: Shutting down and abandoning module ActorPickerMode (190)
+[2016.04.03-22.33.41:192][564]LogModuleManager: Shutting down and abandoning module GeometryMode (189)
+[2016.04.03-22.33.41:192][564]LogModuleManager: Shutting down and abandoning module TextureAlignMode (188)
+[2016.04.03-22.33.41:192][564]LogModuleManager: Shutting down and abandoning module BspMode (187)
+[2016.04.03-22.33.41:192][564]LogModuleManager: Shutting down and abandoning module PlacementMode (186)
+[2016.04.03-22.33.41:192][564]LogModuleManager: Shutting down and abandoning module AutomationWorker (185)
+[2016.04.03-22.33.41:192][564]LogModuleManager: Shutting down and abandoning module CharacterAI (184)
+[2016.04.03-22.33.41:192][564]LogModuleManager: Shutting down and abandoning module SmartSnapping (183)
+[2016.04.03-22.33.41:193][564]LogModuleManager: Shutting down and abandoning module ViewportSnapping (182)
+[2016.04.03-22.33.41:193][564]LogModuleManager: Shutting down and abandoning module LogVisualizer (181)
+[2016.04.03-22.33.41:193][564]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (180)
+[2016.04.03-22.33.41:194][564]LogModuleManager: Shutting down and abandoning module IntroTutorials (179)
+[2016.04.03-22.33.41:194][564]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (178)
+[2016.04.03-22.33.41:194][564]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (177)
+[2016.04.03-22.33.41:194][564]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (176)
+[2016.04.03-22.33.41:194][564]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (175)
+[2016.04.03-22.33.41:950][564]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (174)
+[2016.04.03-22.33.41:950][564]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (173)
+[2016.04.03-22.33.41:950][564]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (172)
+[2016.04.03-22.33.41:950][564]LogModuleManager: Shutting down and abandoning module MergeActors (171)
+[2016.04.03-22.33.41:950][564]LogModuleManager: Shutting down and abandoning module SizeMap (170)
+[2016.04.03-22.33.41:950][564]LogModuleManager: Shutting down and abandoning module TreeMap (169)
+[2016.04.03-22.33.41:950][564]LogModuleManager: Shutting down and abandoning module ReferenceViewer (168)
+[2016.04.03-22.33.41:950][564]LogModuleManager: Shutting down and abandoning module LocalizationService (167)
+[2016.04.03-22.33.41:950][564]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (166)
+[2016.04.03-22.33.41:952][564]LogModuleManager: Shutting down and abandoning module HardwareTargeting (165)
+[2016.04.03-22.33.41:952][564]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (164)
+[2016.04.03-22.33.41:952][564]LogModuleManager: Shutting down and abandoning module UndoHistory (163)
+[2016.04.03-22.33.41:952][564]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (162)
+[2016.04.03-22.33.41:952][564]LogModuleManager: Shutting down and abandoning module UserFeedback (161)
+[2016.04.03-22.33.41:952][564]LogModuleManager: Shutting down and abandoning module XmlParser (160)
+[2016.04.03-22.33.41:952][564]LogModuleManager: Shutting down and abandoning module Blutility (159)
+[2016.04.03-22.33.41:952][564]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (158)
+[2016.04.03-22.33.41:952][564]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (157)
+[2016.04.03-22.33.41:952][564]LogModuleManager: Shutting down and abandoning module InputBindingEditor (156)
+[2016.04.03-22.33.41:953][564]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (155)
+[2016.04.03-22.33.41:953][564]LogModuleManager: Shutting down and abandoning module SettingsEditor (154)
+[2016.04.03-22.33.41:953][564]LogModuleManager: Shutting down and abandoning module ProjectLauncher (153)
+[2016.04.03-22.33.41:954][564]LogModuleManager: Shutting down and abandoning module SessionFrontend (152)
+[2016.04.03-22.33.41:954][564]LogModuleManager: Shutting down and abandoning module ProfilerClient (151)
+[2016.04.03-22.33.41:954][564]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (150)
+[2016.04.03-22.33.41:954][564]LogModuleManager: Shutting down and abandoning module DeviceManager (149)
+[2016.04.03-22.33.41:955][564]LogModuleManager: Shutting down and abandoning module AutomationController (148)
+[2016.04.03-22.33.41:955][564]LogModuleManager: Shutting down and abandoning module AutomationWindow (147)
+[2016.04.03-22.33.41:956][564]LogModuleManager: Shutting down and abandoning module Layers (146)
+[2016.04.03-22.33.41:957][564]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (145)
+[2016.04.03-22.33.41:957][564]LogModuleManager: Shutting down and abandoning module DetailCustomizations (144)
+[2016.04.03-22.33.41:957][564]LogModuleManager: Shutting down and abandoning module PackagesDialog (143)
+[2016.04.03-22.33.41:958][564]LogModuleManager: Shutting down and abandoning module Persona (142)
+[2016.04.03-22.33.41:959][564]LogModuleManager: Shutting down and abandoning module Kismet (141)
+[2016.04.03-22.33.41:960][564]LogModuleManager: Shutting down and abandoning module GraphEditor (140)
+[2016.04.03-22.33.41:960][564]LogModuleManager: Shutting down and abandoning module ClassViewer (139)
+[2016.04.03-22.33.41:960][564]LogModuleManager: Shutting down and abandoning module Toolbox (138)
+[2016.04.03-22.33.41:960][564]LogModuleManager: Shutting down and abandoning module ModuleUI (137)
+[2016.04.03-22.33.41:960][564]LogModuleManager: Shutting down and abandoning module MovieSceneTools (136)
+[2016.04.03-22.33.41:960][564]LogModuleManager: Shutting down and abandoning module OutputLog (135)
+[2016.04.03-22.33.41:960][564]LogModuleManager: Shutting down and abandoning module GammaUI (134)
+[2016.04.03-22.33.41:960][564]LogModuleManager: Shutting down and abandoning module Documentation (133)
+[2016.04.03-22.33.41:960][564]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (132)
+[2016.04.03-22.33.41:961][564]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (131)
+[2016.04.03-22.33.41:961][564]LogModuleManager: Shutting down and abandoning module AnalyticsET (130)
+[2016.04.03-22.33.41:961][564]LogModuleManager: Shutting down and abandoning module Analytics (129)
+[2016.04.03-22.33.41:961][564]LogModuleManager: Shutting down and abandoning module AITestSuite (128)
+[2016.04.03-22.33.41:961][564]LogModuleManager: Shutting down and abandoning module GameplayDebugger (127)
+[2016.04.03-22.33.41:961][564]LogModuleManager: Shutting down and abandoning module AIModule (126)
+[2016.04.03-22.33.41:961][564]LogModuleManager: Shutting down and abandoning module ProfilerService (125)
+[2016.04.03-22.33.42:051][564]LogModuleManager: Shutting down and abandoning module TaskGraph (124)
+[2016.04.03-22.33.42:051][564]LogModuleManager: Shutting down and abandoning module SlateRemote (123)
+[2016.04.03-22.33.42:051][564]LogModuleManager: Shutting down and abandoning module SteamVRController (122)
+[2016.04.03-22.33.42:051][564]LogModuleManager: Shutting down and abandoning module SteamVR (121)
+[2016.04.03-22.33.42:051][564]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (120)
+[2016.04.03-22.33.42:051][564]LogModuleManager: Shutting down and abandoning module OculusLibrary (119)
+[2016.04.03-22.33.42:051][564]LogModuleManager: Shutting down and abandoning module OculusInput (118)
+[2016.04.03-22.33.42:051][564]LogModuleManager: Shutting down and abandoning module LeapMotionController (117)
+[2016.04.03-22.33.42:077][564]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (116)
+[2016.04.03-22.33.42:077][564]LogModuleManager: Shutting down and abandoning module CableComponent (115)
+[2016.04.03-22.33.42:077][564]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (114)
+[2016.04.03-22.33.42:077][564]LogModuleManager: Shutting down and abandoning module MessagingDebugger (113)
+[2016.04.03-22.33.42:079][564]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (112)
+[2016.04.03-22.33.42:079][564]LogModuleManager: Shutting down and abandoning module HTML5Networking (111)
+[2016.04.03-22.33.42:079][564]LogModuleManager: Shutting down and abandoning module CodeView (110)
+[2016.04.03-22.33.42:079][564]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (109)
+[2016.04.03-22.33.42:079][564]LogModuleManager: Shutting down and abandoning module PluginBrowser (108)
+[2016.04.03-22.33.42:079][564]LogModuleManager: Shutting down and abandoning module EpicSurvey (107)
+[2016.04.03-22.33.42:080][564]LogModuleManager: Shutting down and abandoning module DesktopPlatform (106)
+[2016.04.03-22.33.42:080][564]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (105)
+[2016.04.03-22.33.42:080][564]LogModuleManager: Shutting down and abandoning module UObjectPlugin (104)
+[2016.04.03-22.33.42:080][564]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (103)
+[2016.04.03-22.33.42:080][564]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (102)
+[2016.04.03-22.33.42:080][564]LogModuleManager: Shutting down and abandoning module SourceControl (101)
+[2016.04.03-22.33.42:080][564]LogModuleManager: Shutting down and abandoning module GitSourceControl (100)
+[2016.04.03-22.33.42:081][564]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (99)
+[2016.04.03-22.33.42:081][564]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (98)
+[2016.04.03-22.33.42:081][564]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (97)
+[2016.04.03-22.33.42:081][564]LogModuleManager: Shutting down and abandoning module MeshPaint (96)
+[2016.04.03-22.33.42:081][564]LogModuleManager: Shutting down and abandoning module SlateReflector (95)
+[2016.04.03-22.33.42:081][564]LogModuleManager: Shutting down and abandoning module HotReload (94)
+[2016.04.03-22.33.42:082][564]LogModuleManager: Shutting down and abandoning module MainFrame (93)
+[2016.04.03-22.33.42:082][564]LogModuleManager: Shutting down and abandoning module LevelEditor (92)
+[2016.04.03-22.33.42:086][564]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (91)
+[2016.04.03-22.33.42:092][564]LogModuleManager: Shutting down and abandoning module AssetRegistry (90)
+[2016.04.03-22.33.42:469][564]LogModuleManager: Shutting down and abandoning module ContentBrowser (89)
+[2016.04.03-22.33.42:473][564]LogModuleManager: Shutting down and abandoning module Paper2DEditor (88)
+[2016.04.03-22.33.42:475][564]LogModuleManager: Shutting down and abandoning module Star_Traders (87)
+[2016.04.03-22.33.42:475][564]LogModuleManager: Shutting down and abandoning module UdpMessaging (86)
+[2016.04.03-22.33.42:576][564]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (85)
+[2016.04.03-22.33.42:576][564]LogModuleManager: Shutting down and abandoning module Paper2D (84)
+[2016.04.03-22.33.42:576][564]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (83)
+[2016.04.03-22.33.42:581][564]LogModuleManager: Shutting down and abandoning module Media (82)
+[2016.04.03-22.33.42:581][564]LogModuleManager: Shutting down and abandoning module WmfMedia (81)
+[2016.04.03-22.33.42:581][564]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (80)
+[2016.04.03-22.33.42:581][564]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (79)
+[2016.04.03-22.33.42:581][564]LogModuleManager: Shutting down and abandoning module PropertyEditor (78)
+[2016.04.03-22.33.42:582][564]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (77)
+[2016.04.03-22.33.42:583][564]LogModuleManager: Shutting down and abandoning module FunctionalTesting (76)
+[2016.04.03-22.33.42:583][564]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (75)
+[2016.04.03-22.33.42:583][564]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (74)
+[2016.04.03-22.33.42:584][564]LogModuleManager: Shutting down and abandoning module MessageLog (73)
+[2016.04.03-22.33.42:584][564]LogModuleManager: Shutting down and abandoning module Sequencer (72)
+[2016.04.03-22.33.42:585][564]LogModuleManager: Shutting down and abandoning module AssetTools (71)
+[2016.04.03-22.33.42:587][564]LogModuleManager: Shutting down and abandoning module UMGEditor (70)
+[2016.04.03-22.33.42:588][564]LogModuleManager: Shutting down and abandoning module UMG (69)
+[2016.04.03-22.33.42:589][564]LogModuleManager: Shutting down and abandoning module Slate (68)
+[2016.04.03-22.33.42:589][564]LogModuleManager: Shutting down and abandoning module EditorStyle (67)
+[2016.04.03-22.33.42:594][564]LogModuleManager: Shutting down and abandoning module SessionServices (66)
+[2016.04.03-22.33.42:594][564]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (65)
+[2016.04.03-22.33.42:594][564]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (64)
+[2016.04.03-22.33.42:594][564]LogModuleManager: Shutting down and abandoning module XAudio2 (63)
+[2016.04.03-22.33.42:594][564]LogModuleManager: Shutting down and abandoning module Networking (61)
+[2016.04.03-22.33.42:594][564]LogModuleManager: Shutting down and abandoning module Core (60)
+[2016.04.03-22.33.42:594][564]LogModuleManager: Shutting down and abandoning module KismetCompiler (59)
+[2016.04.03-22.33.42:594][564]LogModuleManager: Shutting down and abandoning module PhysXFormats (58)
+[2016.04.03-22.33.42:594][564]LogModuleManager: Shutting down and abandoning module MeshUtilities (57)
+[2016.04.03-22.33.42:595][564]LogModuleManager: Shutting down and abandoning module DerivedDataCache (56)
+[2016.04.03-22.33.42:676][564]LogDerivedDataCache: Shutdown
+[2016.04.03-22.33.42:676][564]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (55)
+[2016.04.03-22.33.42:677][564]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (54)
+[2016.04.03-22.33.42:677][564]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (53)
+[2016.04.03-22.33.42:677][564]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (52)
+[2016.04.03-22.33.42:677][564]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (51)
+[2016.04.03-22.33.42:677][564]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (50)
+[2016.04.03-22.33.42:677][564]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (49)
+[2016.04.03-22.33.42:677][564]LogModuleManager: Shutting down and abandoning module ImageWrapper (48)
+[2016.04.03-22.33.42:677][564]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (47)
+[2016.04.03-22.33.42:677][564]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (46)
+[2016.04.03-22.33.42:677][564]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (45)
+[2016.04.03-22.33.42:677][564]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (44)
+[2016.04.03-22.33.42:677][564]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (43)
+[2016.04.03-22.33.42:677][564]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (42)
+[2016.04.03-22.33.42:677][564]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (41)
+[2016.04.03-22.33.42:677][564]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (40)
+[2016.04.03-22.33.42:677][564]LogModuleManager: Shutting down and abandoning module Messaging (39)
+[2016.04.03-22.33.42:677][564]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (38)
+[2016.04.03-22.33.42:677][564]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (37)
+[2016.04.03-22.33.42:677][564]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (36)
+[2016.04.03-22.33.42:678][564]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (35)
+[2016.04.03-22.33.42:678][564]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (34)
+[2016.04.03-22.33.42:678][564]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (33)
+[2016.04.03-22.33.42:678][564]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (32)
+[2016.04.03-22.33.42:678][564]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (31)
+[2016.04.03-22.33.42:678][564]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (30)
+[2016.04.03-22.33.42:678][564]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (29)
+[2016.04.03-22.33.42:678][564]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (28)
+[2016.04.03-22.33.42:678][564]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (27)
+[2016.04.03-22.33.42:678][564]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (26)
+[2016.04.03-22.33.42:678][564]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (25)
+[2016.04.03-22.33.42:678][564]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (24)
+[2016.04.03-22.33.42:678][564]LogModuleManager: Shutting down and abandoning module TargetPlatform (23)
+[2016.04.03-22.33.42:678][564]LogModuleManager: Shutting down and abandoning module InputCore (22)
+[2016.04.03-22.33.42:678][564]LogModuleManager: Shutting down and abandoning module Settings (21)
+[2016.04.03-22.33.42:678][564]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (19)
+[2016.04.03-22.33.42:679][564]LogModuleManager: Shutting down and abandoning module HTTP (18)
+[2016.04.03-22.33.43:681][564]LogModuleManager: Shutting down and abandoning module XMPP (17)
+[2016.04.03-22.33.43:683][564]LogModuleManager: Shutting down and abandoning module OculusRift (16)
+[2016.04.03-22.33.43:683][564]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (15)
+[2016.04.03-22.33.43:683][564]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2016.04.03-22.33.43:683][564]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2016.04.03-22.33.43:683][564]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2016.04.03-22.33.43:683][564]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2016.04.03-22.33.43:689][564]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2016.04.03-22.33.43:690][564]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2016.04.03-22.33.43:690][564]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2016.04.03-22.33.43:690][564]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2016.04.03-22.33.43:690][564]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2016.04.03-22.33.43:690][564]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2016.04.03-22.33.43:690][564]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2016.04.03-22.33.43:690][564]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2016.04.03-22.33.43:690][564]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2016.04.03-22.33.43:690][564]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2016.04.03-22.33.43:692][564]LogExit: Exiting.
+[2016.04.03-22.33.43:698][564]Log file closed, 04/03/16 16:33:43
