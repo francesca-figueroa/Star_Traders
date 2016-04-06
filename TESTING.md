@@ -55,7 +55,7 @@ Post-conditions: Player can move the ship.
 
 	System Response: The ship should move leftward whilst the key is held.
 
-~~~
+
 
 Use Case ID: UC-2
 
@@ -79,7 +79,7 @@ Post-conditions: The game is showing the player everything it needs to be graphi
 
 	System Response: Each restart, the system will set a variable randomly, changing the number of planets that appear for that run.
 
-~~~
+
 
 Use Case ID: UC-3
 
