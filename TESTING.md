@@ -25,76 +25,97 @@ To access the testing utility, once the project is open within Unreal Engine, th
 
 **User Acceptance Tests**
 
-**TESTING PLAYER MOVEMENT**
+Use Case ID: UC-1
 
-1. Start the game using Unreal Engine.
+Use Case Name: Testing Player Movement
 
-2. Press and hold W for about a second. The ship should move upward whilst the key is held.
-
-3. Press and hold D for about a second. The ship should move rightward whilst the key is held.
- 
-4. Press and hold S for about a second. The ship should move downward whilst the key is held.
- 
-5. Press and hold A for about a second. The ship should move leftward whilst the key is held.
-
-6. Record if and in what relative direction the ship moved for steps 2-5. Record if it moved in a way not described in the respective steps.
-
-The test is considered a success if the ship moved in all the expected ways as described in the instructions.
-
-The test is considered a failure if the above is not true.
+Description: Player can properly move their character using the WASD keys.
 
 
-**TESTING CORRECT GRAPHICAL CONFIGURATION**
 
-1. Start the game using Unreal Engine.
+Users: Players
 
-2. Observe disks created in a hexagonal grid, spanning beyond the entire screen.
+Pre-conditions: Game is running.
 
-3. Record that this is present, or describe how it varies from the description in 2.
+Post-conditions: Player can move the ship.
 
-4. Restart the game.
+1. Press and hold W for about a second.
 
-5. Observe a star potentially being orbited by up to 3 planets.
+	System Response: The ship should move upward whilst the key is held.
 
-6. Record the number of planets the star is being orbited by.
+2. Press and hold D for about a second.
 
-7. Repeat steps 4-6 until either you have recorded 10 times or you have seen stars with 0, 1, 2, and 3 planets orbiting them.
+	System Response: The ship should move rightward whilst the key is held.
 
-The test is considered a success if:
+3. Press and hold S for about a second.
 
-the grid in step 2 was observed as described in the step, 
+	System Response: The ship should move downward whilst the key is held.
 
-and all 4 configurations of planets were observed in step 7.
+4. Press and hold A for about a second.
 
-
-The test is considered a failure if either of the above conditions are not true.
+	System Response: The ship should move leftward whilst the key is held.
 
 
-**TESTING CONVERTING RESOURCES TO MONEY AND TRADING MENUS**
 
-1. Start the game using Unreal Engine.
+Use Case ID: UC-2
 
-2. You should be able to see how much money you have in the top-right. Record this. !(top-right?)
+Use Case Name: Testing Correct Graphical Configuration
 
-3. Click a nearby star. Record if a menu appears, and what the title of the menu is. !(this isn't implemented, test instructions will vary based on actual implementation)
+Description: The world map loads correctly and various features are present.
 
-4. The menu should have a number of buttons, including BUY, SELL, and EXIT. Left-click the BUY button. Record if the menu is replaced with a different one, and the new menu's title.
 
-5. The menu should show a number of different resources in the game. Select the top one, then BUY one instance of that resource. Record the name of the resouce you bought. Exit out from the menus until you return to a screen with no menus as in step 2. Record the money value as in step 2.
 
-6. Click the same star again. Using the same menu, click the SELL button. The menu will change to a new menu, similar to the BUY menu, but the selection of available resources changed to just the resource you bought. Record if this is the case, and the menu's title.
+Users: Players
 
-7. Select the resource you bought, then SELL it. Exit from the menus, then record the money value.
+Pre-conditions: Game is running.
 
-This test is considered successful if:
+Post-conditions: The game is showing the player everything it needs to be graphically.
 
-the tester was able to complete the tasks described in the instructions,
+1. Observe disks created in a hexagonal grid.
 
-the recorded titles of the menus are all different from each other, and describe their functionality sufficiently (i.e. the 
-buy menu should be titled "BUY RESOURCES" or similar),
+2. Observe a star with up to 3 planets orbiting it.
 
-the initial value recorded for money is greater than both the values recorded after, !(this is a gameplay decision we still need to make, regarding the sold value)
+3. Restart the game repeatedly, observing that star until you have observed that 0, 1, 2, and 3 planets can appear.
 
-and the value recorded after selling the resource is greater than when that resource was bought.
+	System Response: Each restart, the system will set a variable randomly, changing the number of planets that appear for that run.
 
-The test is considered a failure if either of the above conditions are not true.
+
+
+Use Case ID: UC-3
+
+Use Case Name: Converting Resources to Money and Trading Menu Functionality
+
+Description: Player can use money and resources to buy and sell other resources.
+
+
+
+Users: Players
+
+Pre-conditions: Game is running.
+
+Post-conditions: Player has obtained, then sold, a resource.
+
+1. Observe that the game is showing your current money supply in the top-right.
+
+2. Click a nearby star.
+
+	System Response: A menu describing the planet and trade options will appear.
+
+3. Click the BUY button.
+
+	System Response: A new menu will replace the old one, showing a number of different resources corresponding to that planet and options to buy those resources.
+
+4. Select the top resource, then buy one of that resource.
+
+	System Response: An amount will be deducted from the player's money supply, and they'll gain one of that resource.
+
+5. Leave the BUY menu, then click on the SELL button in the original menu for the planet.
+
+	System Response: A new menu will replace the old one, showing the resources the player has and what they could get in money for those resources.
+
+6. Sell the resource you bought.
+
+	System Response: The player will lose that resource, but gain some amount of money (less than what they paid for the resource).
+
+
+
