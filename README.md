@@ -1,6 +1,7 @@
 # Star Traders
 
 **Who**
+======
 
 Isabella Figueroa : francesca-figueroa
 
@@ -11,18 +12,24 @@ Nicholas Pfeufer : NicholasPfeufer
 Brandon Jacquez : baroquemyheart
 
 **Description**
+======
 
    A game where in the player attempts to make more money than there opponents by trading in space, at the moment only intended for desktop.
    
 **Vision Statement**
+======
 
   We strive to make games we would enjoy playing.
   
 **Motivation**
+======
+
   
   In initial planning we determined we all liked games, feeling other options to be less interesting we decided to make a game. We considered a number of different topics, formats, and genres for our games, and through brainstorming, eventually concluded that we would enjoy making and playing a game like this project. 
   
 **Risks**
+======
+
 
   1. Time management will be a difficulty as is with any team-based project. We will have to work to coordinate our schedules and individually and as a group manage our limited time resources effectively to generate a good end product, considering the scope of this project. Failure to manage our time effectively would result in ending up with an incomplete product, because we hadn't managed our time and wasted time.
   2. Communication is also a difficulty in team-based work, especially in this case where a significant piece of the project is learning how to effectively use project management tools like Github and Trello. Failure to do this would slow and harm our product and our productivity.
@@ -31,6 +38,8 @@ Brandon Jacquez : baroquemyheart
   
 
 **Mitigation Strategy**
+======
+
 
   1. The use of Trello for scheduling and a set weekly meeting time will help to greatly reduce the risk in time management. 
   2. Group text is already in effect and the use of email is a strong backup. Beyond that, Trello and GitHub will serve as another possible backup. 
@@ -38,9 +47,10 @@ Brandon Jacquez : baroquemyheart
   4. Our game design has been designed to minimize risk because in space there is a lot of empty space and simple shapes, thus less need for complex graphics and competent art skill. 
 
 **Requirements**
-
+======
 
 User Requirements: 
+------
 
 * User-1 - As a player I want to be able to buy and sell goods because in the game I can accumulate goods and currency and progress in the game. 45min
 * User-2 - As a player I want to be able to use goods as components in making other goods because it adds variety and depth to the means of progressing in the game. 35min
@@ -55,6 +65,7 @@ User Requirements:
 * User-11 - As a player I want to be able to upgrade my ship(s) and shop(s) because it adds depth and a sense of progress to the game. 4hours
 
 Functional Requirements: 
+------
 
 * Func-1 - As a developer I want to be able to keep track of the current state of the planetary system and galactic economies because it allows for graphing and price estimates. 1hour
 * Func-2 - As a developer I want to be able to track goods in value, location, and status because it allows for trading, inventory, and managing a relatively versitile economy. 1hour
@@ -69,6 +80,7 @@ Functional Requirements:
 * Func-11 - As a player I want pausing as it add more ease of use. 25min
 
 Non-Functional Requirements: 
+------
 
 * NFunc-1 - As a player I want the game to run at at least 30 fps as it makes the game a smooth visual experience. 6hours (optimization)
 * NFunc-2 - As a player I want the controls and layout to be intuitive as it adds to my ease of use. 1hour (to think about it)
@@ -76,11 +88,13 @@ Non-Functional Requirements:
 * NFunc-4 - As a player I want the game to look reasonably good and the sound to be suitable as it adds to the useability of the game.             4hours
 
 **Methodology:**
+======
+
 Agile, with sprint timing based on weekly meetings.
 
 
 **Link to Project Tracking:**
-
+======
 
 https://trello.com/b/UMEHXd3i/unicorn-factory-game-0
 
