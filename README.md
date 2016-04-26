@@ -1,7 +1,7 @@
 # Star Traders
 
 ## Who
-======
+------
 
 | Member            | Git User Name(s)             |
 | ------------------|:----------------------------:|
@@ -11,7 +11,7 @@
 | Brandon Jacquez   | baroquemyheart               |
 
 ## Repo Organization
-======
+------
 
 The contents of the Star Traders game is contained within the "Star Traders" folder, organized by Unreal. 
 Outside of the Star Traders is all of the Documentation required by CSCI 3308, this includes: 
@@ -22,7 +22,7 @@ Outside of the Star Traders is all of the Documentation required by CSCI 3308, t
 
 
 ## Play The Game 
-======
+------
 To play, first copy the repo of the group GitHub using the command: 
 	
 git clone https://github.com/francesca-figueroa/Star_Traders.git
@@ -31,25 +31,25 @@ Once the repo has been cloned you simply run the executable file and play the ga
 
 
 ## Description
-======
+------
 
    Start Traders is a desktop trading game, in space. The game opens on a grid of hex-tiles, on which several solar systems spawn. 
    The player's role is to buy and sell within a solar system during the course of a turn. The goal of the game is to make money! 
 
    
 ## Vision Statement
-======
+------
 
   We strive to make games we would enjoy playing.
   
 ## Motivation
-======
+------
 
   
   In initial planning we determined we all liked games, feeling other options to be less interesting we decided to make a game. We considered a number of different topics, formats, and genres for our games, and through brainstorming, eventually concluded that we would enjoy making and playing a game like this project. 
   
 ## Risks
-======
+------
 
 
   1. Time management will be a difficulty as is with any team-based project. We will have to work to coordinate our schedules and individually and as a group manage our limited time resources effectively to generate a good end product, considering the scope of this project. Failure to manage our time effectively would result in ending up with an incomplete product, because we hadn't managed our time and wasted time.
@@ -59,7 +59,7 @@ Once the repo has been cloned you simply run the executable file and play the ga
   
 
 ## Mitigation Strategy
-======
+------
 
 
   1. The use of Trello for scheduling and a set weekly meeting time will help to greatly reduce the risk in time management. 
@@ -68,7 +68,7 @@ Once the repo has been cloned you simply run the executable file and play the ga
   4. Our game design has been designed to minimize risk because in space there is a lot of empty space and simple shapes, thus less need for complex graphics and competent art skill. 
 
 ## Requirements
-======
+------
 
 ### User Requirements: 
 
@@ -106,13 +106,13 @@ Once the repo has been cloned you simply run the executable file and play the ga
 * NFunc-4 - As a player I want the game to look reasonably good and the sound to be suitable as it adds to the useability of the game.             4hours
 
 ##Methodology:
-======
+------
 
 Agile, with sprint timing based on weekly meetings.
 
 
 ##Link to Project Tracking:
-======
+------
 
 https://trello.com/b/UMEHXd3i/unicorn-factory-game-0
 
