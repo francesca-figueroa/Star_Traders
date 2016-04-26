@@ -15,18 +15,18 @@
 
    A game where in the player attempts to make more money than there opponents by trading in space, at the moment only intended for desktop.
    
-**Vision Statement**
+*Vision Statement*
 ======
 
   We strive to make games we would enjoy playing.
   
-**Motivation**
+*Motivation*
 ======
 
   
   In initial planning we determined we all liked games, feeling other options to be less interesting we decided to make a game. We considered a number of different topics, formats, and genres for our games, and through brainstorming, eventually concluded that we would enjoy making and playing a game like this project. 
   
-**Risks**
+*Risks*
 ======
 
 
@@ -36,7 +36,7 @@
   4. Designing or finding suitable art is another consideration we will have to take into account. Visuals can make or break a game, so if we are unable obtain artwork, the quality of our game could suffer. 
   
 
-**Mitigation Strategy**
+*Mitigation Strategy*
 ======
 
 
@@ -86,13 +86,13 @@ Non-Functional Requirements:
 * NFunc-3 - As a player I want a game that is stable and effectively manages whatever input I give it as it adds to my player experience. 8hours (testing)
 * NFunc-4 - As a player I want the game to look reasonably good and the sound to be suitable as it adds to the useability of the game.             4hours
 
-**Methodology:**
+*Methodology:*
 ======
 
 Agile, with sprint timing based on weekly meetings.
 
 
-**Link to Project Tracking:**
+*Link to Project Tracking:*
 ======
 
 https://trello.com/b/UMEHXd3i/unicorn-factory-game-0
