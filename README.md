@@ -1,15 +1,14 @@
 # Star Traders
 
-### Who
+**Who**
 ======
 
-Isabella Figueroa : francesca-figueroa
-
-Robert Ballard : robertBallard
-
-Nicholas Pfeufer : NicholasPfeufer
-
-Brandon Jacquez : baroquemyheart
+| Member            | Git User Name(s)             |
+| ------------------|:----------------------------:|
+| Isabella Figueroa |francesca-figueroa            |
+| Robert Ballard    |robertBallard                 |
+| Nicholas Pfeufer  |NicholasPfeufer / NickPfeufer |
+| Brandon Jacquez   | baroquemyheart               |
 
 **Description**
 ======
