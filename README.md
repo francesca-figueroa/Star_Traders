@@ -23,11 +23,13 @@ Outside of the Star Traders is all of the Documentation required by CSCI 3308, t
 
 ## Play The Game 
 ------
-To play, first copy the repo of the group GitHub using the command: 
-	
-git clone https://github.com/francesca-figueroa/Star_Traders.git
+To play, first ensure that you have installed the Unreal Engine. This can be done by following the instructions at the following link: 	https://docs.unrealengine.com/latest/INT/GettingStarted/Installation/index.html
 
-Once the repo has been cloned you simply run the executable file and play the game. 
+Next, copy the repo of the group GitHub using the command: 
+	
+	git clone https://github.com/francesca-figueroa/Star_Traders.git
+
+Once the repo has been cloned you can import the project files into Unreal. Load the project, press play, and begin. 
 
 
 ## Description
